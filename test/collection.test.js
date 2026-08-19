@@ -91,3 +91,18 @@ describe("what the site actually shows", () => {
     }
   });
 });
+
+describe("the commands the README tells you to run", () => {
+  test("every npm script points at a file that exists", () => {
+    const { scripts } = JSON.parse(fs.readFileSync(path.join(ROOT, "package.json"), "utf8"));
+    const missing = [];
+
+    for (const [name, command] of Object.entries(scripts)) {
+      for (const [, file] of command.matchAll(/(?:^|\s)((?:scripts|test)\/[\w.-]+\.js)/g)) {
+        if (!fs.existsSync(path.join(ROOT, file))) missing.push(`npm run ${name} -> ${file}`);
+      }
+    }
+
+    assert.deepEqual(missing, [], "a documented command would fail with 'Cannot find module'");
+  });
+});
