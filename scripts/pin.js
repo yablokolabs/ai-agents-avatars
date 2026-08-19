@@ -9,7 +9,15 @@ const path = require("node:path");
 require("dotenv").config();
 
 const ROOT = path.join(__dirname, "..");
-const JWT = process.env.PINATA_JWT;
+
+/** Pinata takes either a JWT bearer token or the older key/secret header pair. */
+function authHeaders(env) {
+  if (env.PINATA_JWT) return { Authorization: `Bearer ${env.PINATA_JWT}` };
+  if (env.PINATA_API_KEY && env.PINATA_API_SECRET) {
+    return { pinata_api_key: env.PINATA_API_KEY, pinata_secret_api_key: env.PINATA_API_SECRET };
+  }
+  throw new Error("Set PINATA_JWT, or PINATA_API_KEY and PINATA_API_SECRET — see .env.example");
+}
 
 async function pinDirectory(files, label) {
   const form = new FormData();
@@ -21,7 +29,7 @@ async function pinDirectory(files, label) {
 
   const res = await fetch("https://api.pinata.cloud/pinning/pinFileToIPFS", {
     method: "POST",
-    headers: { Authorization: `Bearer ${JWT}` },
+    headers: authHeaders(process.env),
     body: form,
   });
   if (!res.ok) throw new Error(`Pinata rejected ${label}: ${res.status} ${await res.text()}`);
@@ -29,12 +37,14 @@ async function pinDirectory(files, label) {
 }
 
 async function main() {
-  if (!JWT) throw new Error("Set PINATA_JWT in .env — see .env.example");
+  authHeaders(process.env);
 
-  const artDir = path.join(ROOT, "avatars");
+  // PNG, not the source SVG — most wallets will not render SVG from IPFS.
+  const artDir = path.join(ROOT, "avatars-png");
+  if (!fs.existsSync(artDir)) throw new Error("No PNGs — run `npm run art:png` first");
   const art = fs
     .readdirSync(artDir)
-    .filter((f) => f.endsWith(".svg"))
+    .filter((f) => f.endsWith(".png"))
     .sort()
     .map((name) => ({ name, body: fs.readFileSync(path.join(artDir, name)) }));
 
@@ -49,7 +59,8 @@ async function main() {
   fs.mkdirSync(outDir, { recursive: true });
 
   const docs = metadata.map((entry, id) => {
-    const doc = { ...entry, image: `ipfs://${imagesCid}/${entry.image.split("/").pop()}` };
+    const file = entry.image.split("/").pop().replace(/\.svg$/, ".png");
+    const doc = { ...entry, image: `ipfs://${imagesCid}/${file}` };
     const body = JSON.stringify(doc, null, 2) + "\n";
     fs.writeFileSync(path.join(outDir, `${id}.json`), body);
     return { name: `${id}.json`, body };
@@ -63,7 +74,11 @@ async function main() {
   console.log("Put that CID in .env, then run: npm run deploy:amoy");
 }
 
-main().catch((e) => {
-  console.error(e.message);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((e) => {
+    console.error(e.message);
+    process.exit(1);
+  });
+}
+
+module.exports = { authHeaders };

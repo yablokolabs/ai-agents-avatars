@@ -26,7 +26,8 @@ fs.writeFileSync(
 const dest = path.join(ROOT, "frontend", "public", "avatars");
 fs.rmSync(dest, { recursive: true, force: true });
 fs.mkdirSync(dest, { recursive: true });
-for (const file of fs.readdirSync(path.join(ROOT, "avatars"))) {
+// Only the SVGs — the site renders vector.
+for (const file of fs.readdirSync(path.join(ROOT, "avatars")).filter((f) => f.endsWith(".svg"))) {
   fs.copyFileSync(path.join(ROOT, "avatars", file), path.join(dest, file));
 }
 

@@ -4,17 +4,19 @@
   "private": true,
   "scripts": {
     "compile": "hardhat compile",
-    "test": "hardhat test && node --test test/collection.test.js",
+    "test": "hardhat test && node --test test/collection.test.js test/pin-auth.test.js test/raster.test.js",
     "test:contract": "hardhat test",
-    "test:collection": "node --test test/collection.test.js",
+    "test:collection": "node --test test/collection.test.js test/pin-auth.test.js test/raster.test.js",
     "deploy:amoy": "hardhat run scripts/deploy.js --network amoy",
     "art": "node scripts/generate-art.js",
-    "ipfs:pin": "node scripts/pin.js"
+    "art:png": "node scripts/rasterize.js",
+    "ipfs:pin": "node scripts/rasterize.js && node scripts/pin.js"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "hardhat": "^2.22.17",
-    "dotenv": "^16.4.7"
+    "@resvg/resvg-js": "^2.6.2",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.22.17"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^5.1.0"
