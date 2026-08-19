@@ -1,59 +1,62 @@
 'use client';
 
-import { useAccount } from 'wagmi';
-import { Avatar, generateAvatars } from '@/lib/avatars';
+import { useReadContract } from 'wagmi';
+import { avatars } from '@/lib/avatars';
+import { CONTRACT_ABI, CONTRACT_ADDRESS, isDeployed } from '@/lib/contract';
 
 export default function AvatarGrid() {
-  const { address } = useAccount();
-  const avatars = generateAvatars(100);
+  const { data: minted } = useReadContract({
+    address: CONTRACT_ADDRESS,
+    abi: CONTRACT_ABI,
+    functionName: 'totalMinted',
+    query: { enabled: isDeployed },
+  });
+
+  const mintedCount = typeof minted === 'bigint' ? Number(minted) : 0;
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6">
-      {avatars.map((avatar) => (
-        <div
-          key={avatar.id}
-          className={`relative group rounded-xl border overflow-hidden bg-white shadow-sm transition hover:shadow-md ${
-            avatar.minted ? 'border-emerald-300' : 'border-gray-200'
-          }`}
-        >
-          <div className="aspect-square bg-gray-100 flex items-center justify-center">
+    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 px-6 pb-10">
+      {avatars.map((avatar) => {
+        const isMinted = avatar.id < mintedCount;
+        return (
+          <figure
+            key={avatar.id}
+            className={`rounded-xl border overflow-hidden bg-white shadow-sm transition hover:shadow-md ${
+              isMinted ? 'border-emerald-300' : 'border-gray-200'
+            }`}
+          >
             <img
               src={avatar.imageUrl}
               alt={avatar.name}
-              className="w-full h-full object-cover"
+              width={512}
+              height={512}
               loading="lazy"
+              className="w-full aspect-square object-cover bg-gray-100"
             />
-          </div>
-          <div className="p-3">
-            <div className="flex items-center justify-between">
-              <span className="text-xs font-medium text-gray-700">{avatar.name}</span>
-              {avatar.minted && (
-                <span className="text-[10px] uppercase tracking-wide bg-emerald-100 text-emerald-700 px-1.5 py-0.5 rounded">Minted</span>
-              )}
-            </div>
-            <div className="mt-2 flex flex-wrap gap-1">
-              {avatar.traits.map((t) => (
-                <span
-                  key={t.key + t.value}
-                  className="text-[10px] bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded"
-                >
-                  {t.key}: {t.value}
-                </span>
-              ))}
-            </div>
-            {address && !avatar.minted && (
-              <button
-                onClick={() => {
-                  // placeholder — mint flow handled by MintButton
-                }}
-                className="mt-3 w-full py-1.5 rounded-md bg-gray-900 text-white text-xs hover:bg-gray-800 transition"
-              >
-                Mint
-              </button>
-            )}
-          </div>
-        </div>
-      ))}
+            <figcaption className="p-3">
+              <div className="flex items-center justify-between gap-2">
+                <span className="text-xs font-medium text-gray-800">{avatar.name}</span>
+                {isMinted && (
+                  <span className="text-[10px] uppercase tracking-wide bg-emerald-100 text-emerald-700 px-1.5 py-0.5 rounded">
+                    Minted
+                  </span>
+                )}
+              </div>
+              <dl className="mt-2 flex flex-wrap gap-1">
+                {avatar.traits.map((t) => (
+                  <div
+                    key={t.key}
+                    className="text-[10px] bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded"
+                  >
+                    <dt className="sr-only">{t.key}</dt>
+                    <dd>{t.value}</dd>
+                  </div>
+                ))}
+              </dl>
+            </figcaption>
+          </figure>
+        );
+      })}
     </div>
   );
 }
