@@ -3,12 +3,14 @@
 import { useReadContract } from 'wagmi';
 import { avatars } from '@/lib/avatars';
 import { CONTRACT_ABI, CONTRACT_ADDRESS, isDeployed } from '@/lib/contract';
+import { chain } from '@/lib/wagmi';
 
 export default function AvatarGrid() {
   const { data: minted } = useReadContract({
     address: CONTRACT_ADDRESS,
     abi: CONTRACT_ABI,
     functionName: 'totalMinted',
+    chainId: chain.id,
     query: { enabled: isDeployed },
   });
 
@@ -25,6 +27,9 @@ export default function AvatarGrid() {
               isMinted ? 'border-emerald-300' : 'border-gray-200'
             }`}
           >
+            {/* eslint-disable-next-line @next/next/no-img-element --
+                static export with unoptimized images, and next/image cannot
+                optimize SVG anyway */}
             <img
               src={avatar.imageUrl}
               alt={avatar.name}

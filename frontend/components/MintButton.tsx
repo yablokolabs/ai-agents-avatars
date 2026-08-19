@@ -10,7 +10,12 @@ export default function MintButton() {
   const { writeContract, data: hash, isPending, error, reset } = useWriteContract();
   const { isLoading: confirming, isSuccess } = useWaitForTransactionReceipt({ hash });
 
-  const read = { address: CONTRACT_ADDRESS, abi: CONTRACT_ABI, query: { enabled: isDeployed } } as const;
+  const read = {
+    address: CONTRACT_ADDRESS,
+    abi: CONTRACT_ABI,
+    chainId: chain.id,
+    query: { enabled: isDeployed },
+  } as const;
   const { data: price } = useReadContract({ ...read, functionName: 'mintPrice' });
   const { data: minted, refetch } = useReadContract({ ...read, functionName: 'totalMinted' });
   const { data: paused } = useReadContract({ ...read, functionName: 'paused' });
