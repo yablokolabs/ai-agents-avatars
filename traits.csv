@@ -1,0 +1,101 @@
+tokenId,background,agentType,accessory,expression,palette
+0,Dark Mode,Analyst,Badge,Focused,Gradient
+1,Cloud Matrix,Guardian,Cape,Calm,Gradient
+2,Dark Mode,Pilot,Watch,Sleepy,Cyberpunk
+3,Circuit Board,Pilot,Badge,Curious,Neon
+4,Circuit Board,Architect,Headset,Confident,Neon
+5,Forest Code,Guardian,Badge,Intense,Cyberpunk
+6,Cloud Matrix,Builder,None,Calm,Minimal
+7,Void,Scout,Boots,Intense,Pastel
+8,Dark Mode,Guardian,Backpack,Determined,Monochrome
+9,Circuit Board,Scout,Badge,Intense,Monochrome
+10,City Lights,Operator,Badge,Curious,Minimal
+11,Dark Mode,Operator,Badge,Playful,Vintage
+12,Forest Code,Pilot,Gloves,Calm,Oceanic
+13,Solar Flare,Scout,Gloves,Curious,Cyberpunk
+14,Solar Flare,Builder,Gloves,Serious,Vintage
+15,Void,Designer,None,Determined,Earthy
+16,Forest Code,Coder,None,Determined,Pastel
+17,Cloud Matrix,Architect,Gloves,Surprised,Sunset
+18,Neon Grid,Builder,Watch,Sleepy,Earthy
+19,Dark Mode,Analyst,Helmet,Playful,Vintage
+20,City Lights,Scout,Glasses,Playful,Sunset
+21,Data Stream,Scout,Backpack,Sleepy,Minimal
+22,Forest Code,Operator,Badge,Sleepy,Monochrome
+23,City Lights,Researcher,Glasses,Surprised,Vintage
+24,Dark Mode,Guardian,Boots,Serious,Oceanic
+25,Data Stream,Guardian,Cape,Intense,Gradient
+26,Cloud Matrix,Researcher,Headset,Focused,Minimal
+27,Ocean Depth,Guardian,Watch,Surprised,Minimal
+28,Solar Flare,Analyst,Backpack,Playful,Sunset
+29,Ocean Depth,Scout,Headset,Confident,Sunset
+30,Void,Analyst,Cape,Focused,Cyberpunk
+31,Circuit Board,Designer,Backpack,Surprised,Pastel
+32,Forest Code,Designer,Gloves,Focused,Neon
+33,Data Stream,Researcher,Headset,Calm,Pastel
+34,Forest Code,Scout,Watch,Playful,Sunset
+35,Neon Grid,Operator,Watch,Focused,Neon
+36,Forest Code,Builder,Badge,Serious,Minimal
+37,Forest Code,Designer,Helmet,Curious,Pastel
+38,City Lights,Builder,Watch,Sleepy,Vintage
+39,Dark Mode,Builder,Helmet,Focused,Neon
+40,Solar Flare,Architect,Cape,Sleepy,Gradient
+41,Neon Grid,Designer,Cape,Intense,Gradient
+42,Ocean Depth,Coder,Badge,Surprised,Sunset
+43,Ocean Depth,Builder,Watch,Focused,Gradient
+44,Neon Grid,Researcher,Watch,Focused,Earthy
+45,City Lights,Operator,Cape,Playful,Monochrome
+46,City Lights,Operator,None,Sleepy,Sunset
+47,Neon Grid,Builder,Headset,Surprised,Vintage
+48,Forest Code,Designer,Helmet,Curious,Vintage
+49,Ocean Depth,Pilot,Backpack,Playful,Monochrome
+50,Cloud Matrix,Operator,Backpack,Confident,Cyberpunk
+51,Forest Code,Architect,Helmet,Focused,Sunset
+52,Neon Grid,Designer,Gloves,Surprised,Earthy
+53,Forest Code,Architect,Cape,Surprised,Sunset
+54,Solar Flare,Designer,None,Intense,Vintage
+55,Circuit Board,Scout,Boots,Calm,Vintage
+56,Data Stream,Guardian,Glasses,Intense,Sunset
+57,Void,Operator,Badge,Confident,Monochrome
+58,Void,Builder,Backpack,Sleepy,Oceanic
+59,Cloud Matrix,Operator,None,Focused,Neon
+60,Forest Code,Designer,Headset,Curious,Sunset
+61,City Lights,Designer,Headset,Focused,Earthy
+62,Dark Mode,Scout,Helmet,Confident,Monochrome
+63,Circuit Board,Architect,Glasses,Playful,Oceanic
+64,Dark Mode,Designer,Backpack,Playful,Vintage
+65,Solar Flare,Architect,Gloves,Intense,Oceanic
+66,Ocean Depth,Architect,Glasses,Focused,Neon
+67,Forest Code,Operator,Badge,Surprised,Cyberpunk
+68,City Lights,Scout,None,Confident,Pastel
+69,Cloud Matrix,Guardian,Backpack,Determined,Neon
+70,Ocean Depth,Operator,Watch,Determined,Monochrome
+71,Dark Mode,Architect,Cape,Calm,Earthy
+72,Neon Grid,Researcher,Glasses,Playful,Pastel
+73,Dark Mode,Coder,Boots,Sleepy,Neon
+74,Dark Mode,Coder,Watch,Playful,Monochrome
+75,Solar Flare,Builder,Helmet,Playful,Neon
+76,Cloud Matrix,Analyst,Badge,Playful,Gradient
+77,Neon Grid,Designer,Gloves,Serious,Oceanic
+78,Solar Flare,Designer,Headset,Playful,Pastel
+79,Neon Grid,Operator,Watch,Calm,Pastel
+80,Forest Code,Operator,None,Calm,Vintage
+81,Neon Grid,Analyst,Helmet,Playful,Vintage
+82,City Lights,Operator,None,Determined,Sunset
+83,Void,Operator,Badge,Determined,Monochrome
+84,City Lights,Pilot,Badge,Determined,Oceanic
+85,Forest Code,Builder,Backpack,Focused,Gradient
+86,Cloud Matrix,Designer,Backpack,Intense,Gradient
+87,City Lights,Analyst,Headset,Serious,Monochrome
+88,Circuit Board,Pilot,Badge,Intense,Earthy
+89,Forest Code,Pilot,Glasses,Playful,Monochrome
+90,Cloud Matrix,Builder,Badge,Surprised,Cyberpunk
+91,Cloud Matrix,Analyst,None,Confident,Monochrome
+92,Forest Code,Pilot,None,Focused,Oceanic
+93,Cloud Matrix,Guardian,Headset,Focused,Monochrome
+94,Dark Mode,Pilot,Watch,Sleepy,Earthy
+95,Void,Builder,Backpack,Determined,Sunset
+96,Solar Flare,Coder,Helmet,Serious,Cyberpunk
+97,Void,Scout,Gloves,Calm,Gradient
+98,City Lights,Researcher,Helmet,Serious,Neon
+99,Dark Mode,Designer,Badge,Sleepy,Monochrome

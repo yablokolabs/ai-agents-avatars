@@ -1,0 +1,802 @@
+[
+  {
+    "tokenId": 0,
+    "background": "Dark Mode",
+    "agentType": "Analyst",
+    "accessory": "Badge",
+    "expression": "Focused",
+    "palette": "Gradient"
+  },
+  {
+    "tokenId": 1,
+    "background": "Cloud Matrix",
+    "agentType": "Guardian",
+    "accessory": "Cape",
+    "expression": "Calm",
+    "palette": "Gradient"
+  },
+  {
+    "tokenId": 2,
+    "background": "Dark Mode",
+    "agentType": "Pilot",
+    "accessory": "Watch",
+    "expression": "Sleepy",
+    "palette": "Cyberpunk"
+  },
+  {
+    "tokenId": 3,
+    "background": "Circuit Board",
+    "agentType": "Pilot",
+    "accessory": "Badge",
+    "expression": "Curious",
+    "palette": "Neon"
+  },
+  {
+    "tokenId": 4,
+    "background": "Circuit Board",
+    "agentType": "Architect",
+    "accessory": "Headset",
+    "expression": "Confident",
+    "palette": "Neon"
+  },
+  {
+    "tokenId": 5,
+    "background": "Forest Code",
+    "agentType": "Guardian",
+    "accessory": "Badge",
+    "expression": "Intense",
+    "palette": "Cyberpunk"
+  },
+  {
+    "tokenId": 6,
+    "background": "Cloud Matrix",
+    "agentType": "Builder",
+    "accessory": "None",
+    "expression": "Calm",
+    "palette": "Minimal"
+  },
+  {
+    "tokenId": 7,
+    "background": "Void",
+    "agentType": "Scout",
+    "accessory": "Boots",
+    "expression": "Intense",
+    "palette": "Pastel"
+  },
+  {
+    "tokenId": 8,
+    "background": "Dark Mode",
+    "agentType": "Guardian",
+    "accessory": "Backpack",
+    "expression": "Determined",
+    "palette": "Monochrome"
+  },
+  {
+    "tokenId": 9,
+    "background": "Circuit Board",
+    "agentType": "Scout",
+    "accessory": "Badge",
+    "expression": "Intense",
+    "palette": "Monochrome"
+  },
+  {
+    "tokenId": 10,
+    "background": "City Lights",
+    "agentType": "Operator",
+    "accessory": "Badge",
+    "expression": "Curious",
+    "palette": "Minimal"
+  },
+  {
+    "tokenId": 11,
+    "background": "Dark Mode",
+    "agentType": "Operator",
+    "accessory": "Badge",
+    "expression": "Playful",
+    "palette": "Vintage"
+  },
+  {
+    "tokenId": 12,
+    "background": "Forest Code",
+    "agentType": "Pilot",
+    "accessory": "Gloves",
+    "expression": "Calm",
+    "palette": "Oceanic"
+  },
+  {
+    "tokenId": 13,
+    "background": "Solar Flare",
+    "agentType": "Scout",
+    "accessory": "Gloves",
+    "expression": "Curious",
+    "palette": "Cyberpunk"
+  },
+  {
+    "tokenId": 14,
+    "background": "Solar Flare",
+    "agentType": "Builder",
+    "accessory": "Gloves",
+    "expression": "Serious",
+    "palette": "Vintage"
+  },
+  {
+    "tokenId": 15,
+    "background": "Void",
+    "agentType": "Designer",
+    "accessory": "None",
+    "expression": "Determined",
+    "palette": "Earthy"
+  },
+  {
+    "tokenId": 16,
+    "background": "Forest Code",
+    "agentType": "Coder",
+    "accessory": "None",
+    "expression": "Determined",
+    "palette": "Pastel"
+  },
+  {
+    "tokenId": 17,
+    "background": "Cloud Matrix",
+    "agentType": "Architect",
+    "accessory": "Gloves",
+    "expression": "Surprised",
+    "palette": "Sunset"
+  },
+  {
+    "tokenId": 18,
+    "background": "Neon Grid",
+    "agentType": "Builder",
+    "accessory": "Watch",
+    "expression": "Sleepy",
+    "palette": "Earthy"
+  },
+  {
+    "tokenId": 19,
+    "background": "Dark Mode",
+    "agentType": "Analyst",
+    "accessory": "Helmet",
+    "expression": "Playful",
+    "palette": "Vintage"
+  },
+  {
+    "tokenId": 20,
+    "background": "City Lights",
+    "agentType": "Scout",
+    "accessory": "Glasses",
+    "expression": "Playful",
+    "palette": "Sunset"
+  },
+  {
+    "tokenId": 21,
+    "background": "Data Stream",
+    "agentType": "Scout",
+    "accessory": "Backpack",
+    "expression": "Sleepy",
+    "palette": "Minimal"
+  },
+  {
+    "tokenId": 22,
+    "background": "Forest Code",
+    "agentType": "Operator",
+    "accessory": "Badge",
+    "expression": "Sleepy",
+    "palette": "Monochrome"
+  },
+  {
+    "tokenId": 23,
+    "background": "City Lights",
+    "agentType": "Researcher",
+    "accessory": "Glasses",
+    "expression": "Surprised",
+    "palette": "Vintage"
+  },
+  {
+    "tokenId": 24,
+    "background": "Dark Mode",
+    "agentType": "Guardian",
+    "accessory": "Boots",
+    "expression": "Serious",
+    "palette": "Oceanic"
+  },
+  {
+    "tokenId": 25,
+    "background": "Data Stream",
+    "agentType": "Guardian",
+    "accessory": "Cape",
+    "expression": "Intense",
+    "palette": "Gradient"
+  },
+  {
+    "tokenId": 26,
+    "background": "Cloud Matrix",
+    "agentType": "Researcher",
+    "accessory": "Headset",
+    "expression": "Focused",
+    "palette": "Minimal"
+  },
+  {
+    "tokenId": 27,
+    "background": "Ocean Depth",
+    "agentType": "Guardian",
+    "accessory": "Watch",
+    "expression": "Surprised",
+    "palette": "Minimal"
+  },
+  {
+    "tokenId": 28,
+    "background": "Solar Flare",
+    "agentType": "Analyst",
+    "accessory": "Backpack",
+    "expression": "Playful",
+    "palette": "Sunset"
+  },
+  {
+    "tokenId": 29,
+    "background": "Ocean Depth",
+    "agentType": "Scout",
+    "accessory": "Headset",
+    "expression": "Confident",
+    "palette": "Sunset"
+  },
+  {
+    "tokenId": 30,
+    "background": "Void",
+    "agentType": "Analyst",
+    "accessory": "Cape",
+    "expression": "Focused",
+    "palette": "Cyberpunk"
+  },
+  {
+    "tokenId": 31,
+    "background": "Circuit Board",
+    "agentType": "Designer",
+    "accessory": "Backpack",
+    "expression": "Surprised",
+    "palette": "Pastel"
+  },
+  {
+    "tokenId": 32,
+    "background": "Forest Code",
+    "agentType": "Designer",
+    "accessory": "Gloves",
+    "expression": "Focused",
+    "palette": "Neon"
+  },
+  {
+    "tokenId": 33,
+    "background": "Data Stream",
+    "agentType": "Researcher",
+    "accessory": "Headset",
+    "expression": "Calm",
+    "palette": "Pastel"
+  },
+  {
+    "tokenId": 34,
+    "background": "Forest Code",
+    "agentType": "Scout",
+    "accessory": "Watch",
+    "expression": "Playful",
+    "palette": "Sunset"
+  },
+  {
+    "tokenId": 35,
+    "background": "Neon Grid",
+    "agentType": "Operator",
+    "accessory": "Watch",
+    "expression": "Focused",
+    "palette": "Neon"
+  },
+  {
+    "tokenId": 36,
+    "background": "Forest Code",
+    "agentType": "Builder",
+    "accessory": "Badge",
+    "expression": "Serious",
+    "palette": "Minimal"
+  },
+  {
+    "tokenId": 37,
+    "background": "Forest Code",
+    "agentType": "Designer",
+    "accessory": "Helmet",
+    "expression": "Curious",
+    "palette": "Pastel"
+  },
+  {
+    "tokenId": 38,
+    "background": "City Lights",
+    "agentType": "Builder",
+    "accessory": "Watch",
+    "expression": "Sleepy",
+    "palette": "Vintage"
+  },
+  {
+    "tokenId": 39,
+    "background": "Dark Mode",
+    "agentType": "Builder",
+    "accessory": "Helmet",
+    "expression": "Focused",
+    "palette": "Neon"
+  },
+  {
+    "tokenId": 40,
+    "background": "Solar Flare",
+    "agentType": "Architect",
+    "accessory": "Cape",
+    "expression": "Sleepy",
+    "palette": "Gradient"
+  },
+  {
+    "tokenId": 41,
+    "background": "Neon Grid",
+    "agentType": "Designer",
+    "accessory": "Cape",
+    "expression": "Intense",
+    "palette": "Gradient"
+  },
+  {
+    "tokenId": 42,
+    "background": "Ocean Depth",
+    "agentType": "Coder",
+    "accessory": "Badge",
+    "expression": "Surprised",
+    "palette": "Sunset"
+  },
+  {
+    "tokenId": 43,
+    "background": "Ocean Depth",
+    "agentType": "Builder",
+    "accessory": "Watch",
+    "expression": "Focused",
+    "palette": "Gradient"
+  },
+  {
+    "tokenId": 44,
+    "background": "Neon Grid",
+    "agentType": "Researcher",
+    "accessory": "Watch",
+    "expression": "Focused",
+    "palette": "Earthy"
+  },
+  {
+    "tokenId": 45,
+    "background": "City Lights",
+    "agentType": "Operator",
+    "accessory": "Cape",
+    "expression": "Playful",
+    "palette": "Monochrome"
+  },
+  {
+    "tokenId": 46,
+    "background": "City Lights",
+    "agentType": "Operator",
+    "accessory": "None",
+    "expression": "Sleepy",
+    "palette": "Sunset"
+  },
+  {
+    "tokenId": 47,
+    "background": "Neon Grid",
+    "agentType": "Builder",
+    "accessory": "Headset",
+    "expression": "Surprised",
+    "palette": "Vintage"
+  },
+  {
+    "tokenId": 48,
+    "background": "Forest Code",
+    "agentType": "Designer",
+    "accessory": "Helmet",
+    "expression": "Curious",
+    "palette": "Vintage"
+  },
+  {
+    "tokenId": 49,
+    "background": "Ocean Depth",
+    "agentType": "Pilot",
+    "accessory": "Backpack",
+    "expression": "Playful",
+    "palette": "Monochrome"
+  },
+  {
+    "tokenId": 50,
+    "background": "Cloud Matrix",
+    "agentType": "Operator",
+    "accessory": "Backpack",
+    "expression": "Confident",
+    "palette": "Cyberpunk"
+  },
+  {
+    "tokenId": 51,
+    "background": "Forest Code",
+    "agentType": "Architect",
+    "accessory": "Helmet",
+    "expression": "Focused",
+    "palette": "Sunset"
+  },
+  {
+    "tokenId": 52,
+    "background": "Neon Grid",
+    "agentType": "Designer",
+    "accessory": "Gloves",
+    "expression": "Surprised",
+    "palette": "Earthy"
+  },
+  {
+    "tokenId": 53,
+    "background": "Forest Code",
+    "agentType": "Architect",
+    "accessory": "Cape",
+    "expression": "Surprised",
+    "palette": "Sunset"
+  },
+  {
+    "tokenId": 54,
+    "background": "Solar Flare",
+    "agentType": "Designer",
+    "accessory": "None",
+    "expression": "Intense",
+    "palette": "Vintage"
+  },
+  {
+    "tokenId": 55,
+    "background": "Circuit Board",
+    "agentType": "Scout",
+    "accessory": "Boots",
+    "expression": "Calm",
+    "palette": "Vintage"
+  },
+  {
+    "tokenId": 56,
+    "background": "Data Stream",
+    "agentType": "Guardian",
+    "accessory": "Glasses",
+    "expression": "Intense",
+    "palette": "Sunset"
+  },
+  {
+    "tokenId": 57,
+    "background": "Void",
+    "agentType": "Operator",
+    "accessory": "Badge",
+    "expression": "Confident",
+    "palette": "Monochrome"
+  },
+  {
+    "tokenId": 58,
+    "background": "Void",
+    "agentType": "Builder",
+    "accessory": "Backpack",
+    "expression": "Sleepy",
+    "palette": "Oceanic"
+  },
+  {
+    "tokenId": 59,
+    "background": "Cloud Matrix",
+    "agentType": "Operator",
+    "accessory": "None",
+    "expression": "Focused",
+    "palette": "Neon"
+  },
+  {
+    "tokenId": 60,
+    "background": "Forest Code",
+    "agentType": "Designer",
+    "accessory": "Headset",
+    "expression": "Curious",
+    "palette": "Sunset"
+  },
+  {
+    "tokenId": 61,
+    "background": "City Lights",
+    "agentType": "Designer",
+    "accessory": "Headset",
+    "expression": "Focused",
+    "palette": "Earthy"
+  },
+  {
+    "tokenId": 62,
+    "background": "Dark Mode",
+    "agentType": "Scout",
+    "accessory": "Helmet",
+    "expression": "Confident",
+    "palette": "Monochrome"
+  },
+  {
+    "tokenId": 63,
+    "background": "Circuit Board",
+    "agentType": "Architect",
+    "accessory": "Glasses",
+    "expression": "Playful",
+    "palette": "Oceanic"
+  },
+  {
+    "tokenId": 64,
+    "background": "Dark Mode",
+    "agentType": "Designer",
+    "accessory": "Backpack",
+    "expression": "Playful",
+    "palette": "Vintage"
+  },
+  {
+    "tokenId": 65,
+    "background": "Solar Flare",
+    "agentType": "Architect",
+    "accessory": "Gloves",
+    "expression": "Intense",
+    "palette": "Oceanic"
+  },
+  {
+    "tokenId": 66,
+    "background": "Ocean Depth",
+    "agentType": "Architect",
+    "accessory": "Glasses",
+    "expression": "Focused",
+    "palette": "Neon"
+  },
+  {
+    "tokenId": 67,
+    "background": "Forest Code",
+    "agentType": "Operator",
+    "accessory": "Badge",
+    "expression": "Surprised",
+    "palette": "Cyberpunk"
+  },
+  {
+    "tokenId": 68,
+    "background": "City Lights",
+    "agentType": "Scout",
+    "accessory": "None",
+    "expression": "Confident",
+    "palette": "Pastel"
+  },
+  {
+    "tokenId": 69,
+    "background": "Cloud Matrix",
+    "agentType": "Guardian",
+    "accessory": "Backpack",
+    "expression": "Determined",
+    "palette": "Neon"
+  },
+  {
+    "tokenId": 70,
+    "background": "Ocean Depth",
+    "agentType": "Operator",
+    "accessory": "Watch",
+    "expression": "Determined",
+    "palette": "Monochrome"
+  },
+  {
+    "tokenId": 71,
+    "background": "Dark Mode",
+    "agentType": "Architect",
+    "accessory": "Cape",
+    "expression": "Calm",
+    "palette": "Earthy"
+  },
+  {
+    "tokenId": 72,
+    "background": "Neon Grid",
+    "agentType": "Researcher",
+    "accessory": "Glasses",
+    "expression": "Playful",
+    "palette": "Pastel"
+  },
+  {
+    "tokenId": 73,
+    "background": "Dark Mode",
+    "agentType": "Coder",
+    "accessory": "Boots",
+    "expression": "Sleepy",
+    "palette": "Neon"
+  },
+  {
+    "tokenId": 74,
+    "background": "Dark Mode",
+    "agentType": "Coder",
+    "accessory": "Watch",
+    "expression": "Playful",
+    "palette": "Monochrome"
+  },
+  {
+    "tokenId": 75,
+    "background": "Solar Flare",
+    "agentType": "Builder",
+    "accessory": "Helmet",
+    "expression": "Playful",
+    "palette": "Neon"
+  },
+  {
+    "tokenId": 76,
+    "background": "Cloud Matrix",
+    "agentType": "Analyst",
+    "accessory": "Badge",
+    "expression": "Playful",
+    "palette": "Gradient"
+  },
+  {
+    "tokenId": 77,
+    "background": "Neon Grid",
+    "agentType": "Designer",
+    "accessory": "Gloves",
+    "expression": "Serious",
+    "palette": "Oceanic"
+  },
+  {
+    "tokenId": 78,
+    "background": "Solar Flare",
+    "agentType": "Designer",
+    "accessory": "Headset",
+    "expression": "Playful",
+    "palette": "Pastel"
+  },
+  {
+    "tokenId": 79,
+    "background": "Neon Grid",
+    "agentType": "Operator",
+    "accessory": "Watch",
+    "expression": "Calm",
+    "palette": "Pastel"
+  },
+  {
+    "tokenId": 80,
+    "background": "Forest Code",
+    "agentType": "Operator",
+    "accessory": "None",
+    "expression": "Calm",
+    "palette": "Vintage"
+  },
+  {
+    "tokenId": 81,
+    "background": "Neon Grid",
+    "agentType": "Analyst",
+    "accessory": "Helmet",
+    "expression": "Playful",
+    "palette": "Vintage"
+  },
+  {
+    "tokenId": 82,
+    "background": "City Lights",
+    "agentType": "Operator",
+    "accessory": "None",
+    "expression": "Determined",
+    "palette": "Sunset"
+  },
+  {
+    "tokenId": 83,
+    "background": "Void",
+    "agentType": "Operator",
+    "accessory": "Badge",
+    "expression": "Determined",
+    "palette": "Monochrome"
+  },
+  {
+    "tokenId": 84,
+    "background": "City Lights",
+    "agentType": "Pilot",
+    "accessory": "Badge",
+    "expression": "Determined",
+    "palette": "Oceanic"
+  },
+  {
+    "tokenId": 85,
+    "background": "Forest Code",
+    "agentType": "Builder",
+    "accessory": "Backpack",
+    "expression": "Focused",
+    "palette": "Gradient"
+  },
+  {
+    "tokenId": 86,
+    "background": "Cloud Matrix",
+    "agentType": "Designer",
+    "accessory": "Backpack",
+    "expression": "Intense",
+    "palette": "Gradient"
+  },
+  {
+    "tokenId": 87,
+    "background": "City Lights",
+    "agentType": "Analyst",
+    "accessory": "Headset",
+    "expression": "Serious",
+    "palette": "Monochrome"
+  },
+  {
+    "tokenId": 88,
+    "background": "Circuit Board",
+    "agentType": "Pilot",
+    "accessory": "Badge",
+    "expression": "Intense",
+    "palette": "Earthy"
+  },
+  {
+    "tokenId": 89,
+    "background": "Forest Code",
+    "agentType": "Pilot",
+    "accessory": "Glasses",
+    "expression": "Playful",
+    "palette": "Monochrome"
+  },
+  {
+    "tokenId": 90,
+    "background": "Cloud Matrix",
+    "agentType": "Builder",
+    "accessory": "Badge",
+    "expression": "Surprised",
+    "palette": "Cyberpunk"
+  },
+  {
+    "tokenId": 91,
+    "background": "Cloud Matrix",
+    "agentType": "Analyst",
+    "accessory": "None",
+    "expression": "Confident",
+    "palette": "Monochrome"
+  },
+  {
+    "tokenId": 92,
+    "background": "Forest Code",
+    "agentType": "Pilot",
+    "accessory": "None",
+    "expression": "Focused",
+    "palette": "Oceanic"
+  },
+  {
+    "tokenId": 93,
+    "background": "Cloud Matrix",
+    "agentType": "Guardian",
+    "accessory": "Headset",
+    "expression": "Focused",
+    "palette": "Monochrome"
+  },
+  {
+    "tokenId": 94,
+    "background": "Dark Mode",
+    "agentType": "Pilot",
+    "accessory": "Watch",
+    "expression": "Sleepy",
+    "palette": "Earthy"
+  },
+  {
+    "tokenId": 95,
+    "background": "Void",
+    "agentType": "Builder",
+    "accessory": "Backpack",
+    "expression": "Determined",
+    "palette": "Sunset"
+  },
+  {
+    "tokenId": 96,
+    "background": "Solar Flare",
+    "agentType": "Coder",
+    "accessory": "Helmet",
+    "expression": "Serious",
+    "palette": "Cyberpunk"
+  },
+  {
+    "tokenId": 97,
+    "background": "Void",
+    "agentType": "Scout",
+    "accessory": "Gloves",
+    "expression": "Calm",
+    "palette": "Gradient"
+  },
+  {
+    "tokenId": 98,
+    "background": "City Lights",
+    "agentType": "Researcher",
+    "accessory": "Helmet",
+    "expression": "Serious",
+    "palette": "Neon"
+  },
+  {
+    "tokenId": 99,
+    "background": "Dark Mode",
+    "agentType": "Designer",
+    "accessory": "Badge",
+    "expression": "Sleepy",
+    "palette": "Monochrome"
+  }
+]

@@ -1,0 +1,2702 @@
+[
+  {
+    "name": "AI Agents Avatar #1",
+    "description": "An AI agent avatar with Dark Mode background, Analyst type, Badge accessory, Focused expression, and Gradient palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_000.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Mode"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Analyst"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Badge"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Focused"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Gradient"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #2",
+    "description": "An AI agent avatar with Cloud Matrix background, Guardian type, Cape accessory, Calm expression, and Gradient palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_001.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cloud Matrix"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Guardian"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Cape"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Calm"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Gradient"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #3",
+    "description": "An AI agent avatar with Dark Mode background, Pilot type, Watch accessory, Sleepy expression, and Cyberpunk palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_002.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Mode"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Pilot"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Watch"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sleepy"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Cyberpunk"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #4",
+    "description": "An AI agent avatar with Circuit Board background, Pilot type, Badge accessory, Curious expression, and Neon palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_003.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Circuit Board"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Pilot"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Badge"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Curious"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Neon"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #5",
+    "description": "An AI agent avatar with Circuit Board background, Architect type, Headset accessory, Confident expression, and Neon palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_004.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Circuit Board"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Architect"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Headset"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Confident"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Neon"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #6",
+    "description": "An AI agent avatar with Forest Code background, Guardian type, Badge accessory, Intense expression, and Cyberpunk palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_005.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Forest Code"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Guardian"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Badge"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Intense"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Cyberpunk"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #7",
+    "description": "An AI agent avatar with Cloud Matrix background, Builder type, no accessory accessory, Calm expression, and Minimal palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_006.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cloud Matrix"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Builder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Calm"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Minimal"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #8",
+    "description": "An AI agent avatar with Void background, Scout type, Boots accessory, Intense expression, and Pastel palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_007.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Scout"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Boots"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Intense"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Pastel"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #9",
+    "description": "An AI agent avatar with Dark Mode background, Guardian type, Backpack accessory, Determined expression, and Monochrome palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_008.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Mode"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Guardian"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Backpack"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Determined"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Monochrome"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #10",
+    "description": "An AI agent avatar with Circuit Board background, Scout type, Badge accessory, Intense expression, and Monochrome palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_009.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Circuit Board"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Scout"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Badge"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Intense"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Monochrome"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #11",
+    "description": "An AI agent avatar with City Lights background, Operator type, Badge accessory, Curious expression, and Minimal palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_010.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "City Lights"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Operator"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Badge"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Curious"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Minimal"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #12",
+    "description": "An AI agent avatar with Dark Mode background, Operator type, Badge accessory, Playful expression, and Vintage palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_011.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Mode"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Operator"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Badge"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Playful"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Vintage"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #13",
+    "description": "An AI agent avatar with Forest Code background, Pilot type, Gloves accessory, Calm expression, and Oceanic palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_012.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Forest Code"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Pilot"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Gloves"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Calm"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Oceanic"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #14",
+    "description": "An AI agent avatar with Solar Flare background, Scout type, Gloves accessory, Curious expression, and Cyberpunk palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_013.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Solar Flare"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Scout"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Gloves"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Curious"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Cyberpunk"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #15",
+    "description": "An AI agent avatar with Solar Flare background, Builder type, Gloves accessory, Serious expression, and Vintage palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_014.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Solar Flare"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Builder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Gloves"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Serious"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Vintage"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #16",
+    "description": "An AI agent avatar with Void background, Designer type, no accessory accessory, Determined expression, and Earthy palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_015.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Designer"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Determined"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Earthy"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #17",
+    "description": "An AI agent avatar with Forest Code background, Coder type, no accessory accessory, Determined expression, and Pastel palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_016.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Forest Code"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Coder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Determined"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Pastel"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #18",
+    "description": "An AI agent avatar with Cloud Matrix background, Architect type, Gloves accessory, Surprised expression, and Sunset palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_017.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cloud Matrix"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Architect"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Gloves"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Surprised"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Sunset"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #19",
+    "description": "An AI agent avatar with Neon Grid background, Builder type, Watch accessory, Sleepy expression, and Earthy palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_018.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon Grid"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Builder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Watch"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sleepy"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Earthy"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #20",
+    "description": "An AI agent avatar with Dark Mode background, Analyst type, Helmet accessory, Playful expression, and Vintage palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_019.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Mode"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Analyst"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Helmet"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Playful"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Vintage"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #21",
+    "description": "An AI agent avatar with City Lights background, Scout type, Glasses accessory, Playful expression, and Sunset palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_020.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "City Lights"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Scout"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Glasses"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Playful"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Sunset"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #22",
+    "description": "An AI agent avatar with Data Stream background, Scout type, Backpack accessory, Sleepy expression, and Minimal palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_021.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Data Stream"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Scout"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Backpack"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sleepy"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Minimal"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #23",
+    "description": "An AI agent avatar with Forest Code background, Operator type, Badge accessory, Sleepy expression, and Monochrome palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_022.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Forest Code"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Operator"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Badge"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sleepy"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Monochrome"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #24",
+    "description": "An AI agent avatar with City Lights background, Researcher type, Glasses accessory, Surprised expression, and Vintage palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_023.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "City Lights"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Researcher"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Glasses"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Surprised"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Vintage"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #25",
+    "description": "An AI agent avatar with Dark Mode background, Guardian type, Boots accessory, Serious expression, and Oceanic palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_024.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Mode"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Guardian"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Boots"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Serious"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Oceanic"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #26",
+    "description": "An AI agent avatar with Data Stream background, Guardian type, Cape accessory, Intense expression, and Gradient palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_025.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Data Stream"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Guardian"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Cape"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Intense"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Gradient"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #27",
+    "description": "An AI agent avatar with Cloud Matrix background, Researcher type, Headset accessory, Focused expression, and Minimal palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_026.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cloud Matrix"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Researcher"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Headset"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Focused"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Minimal"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #28",
+    "description": "An AI agent avatar with Ocean Depth background, Guardian type, Watch accessory, Surprised expression, and Minimal palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_027.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Ocean Depth"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Guardian"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Watch"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Surprised"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Minimal"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #29",
+    "description": "An AI agent avatar with Solar Flare background, Analyst type, Backpack accessory, Playful expression, and Sunset palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_028.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Solar Flare"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Analyst"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Backpack"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Playful"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Sunset"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #30",
+    "description": "An AI agent avatar with Ocean Depth background, Scout type, Headset accessory, Confident expression, and Sunset palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_029.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Ocean Depth"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Scout"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Headset"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Confident"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Sunset"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #31",
+    "description": "An AI agent avatar with Void background, Analyst type, Cape accessory, Focused expression, and Cyberpunk palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_030.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Analyst"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Cape"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Focused"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Cyberpunk"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #32",
+    "description": "An AI agent avatar with Circuit Board background, Designer type, Backpack accessory, Surprised expression, and Pastel palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_031.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Circuit Board"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Designer"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Backpack"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Surprised"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Pastel"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #33",
+    "description": "An AI agent avatar with Forest Code background, Designer type, Gloves accessory, Focused expression, and Neon palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_032.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Forest Code"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Designer"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Gloves"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Focused"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Neon"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #34",
+    "description": "An AI agent avatar with Data Stream background, Researcher type, Headset accessory, Calm expression, and Pastel palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_033.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Data Stream"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Researcher"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Headset"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Calm"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Pastel"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #35",
+    "description": "An AI agent avatar with Forest Code background, Scout type, Watch accessory, Playful expression, and Sunset palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_034.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Forest Code"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Scout"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Watch"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Playful"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Sunset"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #36",
+    "description": "An AI agent avatar with Neon Grid background, Operator type, Watch accessory, Focused expression, and Neon palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_035.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon Grid"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Operator"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Watch"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Focused"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Neon"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #37",
+    "description": "An AI agent avatar with Forest Code background, Builder type, Badge accessory, Serious expression, and Minimal palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_036.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Forest Code"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Builder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Badge"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Serious"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Minimal"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #38",
+    "description": "An AI agent avatar with Forest Code background, Designer type, Helmet accessory, Curious expression, and Pastel palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_037.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Forest Code"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Designer"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Helmet"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Curious"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Pastel"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #39",
+    "description": "An AI agent avatar with City Lights background, Builder type, Watch accessory, Sleepy expression, and Vintage palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_038.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "City Lights"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Builder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Watch"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sleepy"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Vintage"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #40",
+    "description": "An AI agent avatar with Dark Mode background, Builder type, Helmet accessory, Focused expression, and Neon palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_039.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Mode"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Builder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Helmet"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Focused"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Neon"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #41",
+    "description": "An AI agent avatar with Solar Flare background, Architect type, Cape accessory, Sleepy expression, and Gradient palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_040.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Solar Flare"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Architect"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Cape"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sleepy"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Gradient"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #42",
+    "description": "An AI agent avatar with Neon Grid background, Designer type, Cape accessory, Intense expression, and Gradient palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_041.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon Grid"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Designer"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Cape"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Intense"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Gradient"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #43",
+    "description": "An AI agent avatar with Ocean Depth background, Coder type, Badge accessory, Surprised expression, and Sunset palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_042.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Ocean Depth"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Coder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Badge"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Surprised"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Sunset"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #44",
+    "description": "An AI agent avatar with Ocean Depth background, Builder type, Watch accessory, Focused expression, and Gradient palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_043.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Ocean Depth"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Builder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Watch"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Focused"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Gradient"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #45",
+    "description": "An AI agent avatar with Neon Grid background, Researcher type, Watch accessory, Focused expression, and Earthy palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_044.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon Grid"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Researcher"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Watch"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Focused"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Earthy"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #46",
+    "description": "An AI agent avatar with City Lights background, Operator type, Cape accessory, Playful expression, and Monochrome palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_045.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "City Lights"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Operator"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Cape"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Playful"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Monochrome"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #47",
+    "description": "An AI agent avatar with City Lights background, Operator type, no accessory accessory, Sleepy expression, and Sunset palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_046.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "City Lights"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Operator"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sleepy"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Sunset"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #48",
+    "description": "An AI agent avatar with Neon Grid background, Builder type, Headset accessory, Surprised expression, and Vintage palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_047.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon Grid"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Builder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Headset"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Surprised"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Vintage"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #49",
+    "description": "An AI agent avatar with Forest Code background, Designer type, Helmet accessory, Curious expression, and Vintage palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_048.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Forest Code"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Designer"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Helmet"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Curious"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Vintage"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #50",
+    "description": "An AI agent avatar with Ocean Depth background, Pilot type, Backpack accessory, Playful expression, and Monochrome palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_049.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Ocean Depth"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Pilot"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Backpack"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Playful"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Monochrome"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #51",
+    "description": "An AI agent avatar with Cloud Matrix background, Operator type, Backpack accessory, Confident expression, and Cyberpunk palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_050.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cloud Matrix"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Operator"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Backpack"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Confident"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Cyberpunk"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #52",
+    "description": "An AI agent avatar with Forest Code background, Architect type, Helmet accessory, Focused expression, and Sunset palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_051.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Forest Code"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Architect"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Helmet"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Focused"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Sunset"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #53",
+    "description": "An AI agent avatar with Neon Grid background, Designer type, Gloves accessory, Surprised expression, and Earthy palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_052.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon Grid"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Designer"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Gloves"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Surprised"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Earthy"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #54",
+    "description": "An AI agent avatar with Forest Code background, Architect type, Cape accessory, Surprised expression, and Sunset palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_053.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Forest Code"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Architect"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Cape"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Surprised"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Sunset"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #55",
+    "description": "An AI agent avatar with Solar Flare background, Designer type, no accessory accessory, Intense expression, and Vintage palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_054.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Solar Flare"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Designer"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Intense"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Vintage"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #56",
+    "description": "An AI agent avatar with Circuit Board background, Scout type, Boots accessory, Calm expression, and Vintage palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_055.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Circuit Board"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Scout"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Boots"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Calm"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Vintage"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #57",
+    "description": "An AI agent avatar with Data Stream background, Guardian type, Glasses accessory, Intense expression, and Sunset palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_056.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Data Stream"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Guardian"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Glasses"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Intense"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Sunset"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #58",
+    "description": "An AI agent avatar with Void background, Operator type, Badge accessory, Confident expression, and Monochrome palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_057.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Operator"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Badge"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Confident"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Monochrome"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #59",
+    "description": "An AI agent avatar with Void background, Builder type, Backpack accessory, Sleepy expression, and Oceanic palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_058.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Builder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Backpack"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sleepy"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Oceanic"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #60",
+    "description": "An AI agent avatar with Cloud Matrix background, Operator type, no accessory accessory, Focused expression, and Neon palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_059.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cloud Matrix"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Operator"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Focused"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Neon"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #61",
+    "description": "An AI agent avatar with Forest Code background, Designer type, Headset accessory, Curious expression, and Sunset palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_060.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Forest Code"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Designer"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Headset"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Curious"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Sunset"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #62",
+    "description": "An AI agent avatar with City Lights background, Designer type, Headset accessory, Focused expression, and Earthy palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_061.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "City Lights"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Designer"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Headset"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Focused"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Earthy"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #63",
+    "description": "An AI agent avatar with Dark Mode background, Scout type, Helmet accessory, Confident expression, and Monochrome palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_062.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Mode"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Scout"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Helmet"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Confident"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Monochrome"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #64",
+    "description": "An AI agent avatar with Circuit Board background, Architect type, Glasses accessory, Playful expression, and Oceanic palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_063.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Circuit Board"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Architect"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Glasses"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Playful"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Oceanic"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #65",
+    "description": "An AI agent avatar with Dark Mode background, Designer type, Backpack accessory, Playful expression, and Vintage palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_064.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Mode"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Designer"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Backpack"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Playful"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Vintage"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #66",
+    "description": "An AI agent avatar with Solar Flare background, Architect type, Gloves accessory, Intense expression, and Oceanic palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_065.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Solar Flare"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Architect"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Gloves"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Intense"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Oceanic"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #67",
+    "description": "An AI agent avatar with Ocean Depth background, Architect type, Glasses accessory, Focused expression, and Neon palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_066.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Ocean Depth"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Architect"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Glasses"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Focused"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Neon"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #68",
+    "description": "An AI agent avatar with Forest Code background, Operator type, Badge accessory, Surprised expression, and Cyberpunk palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_067.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Forest Code"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Operator"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Badge"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Surprised"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Cyberpunk"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #69",
+    "description": "An AI agent avatar with City Lights background, Scout type, no accessory accessory, Confident expression, and Pastel palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_068.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "City Lights"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Scout"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Confident"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Pastel"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #70",
+    "description": "An AI agent avatar with Cloud Matrix background, Guardian type, Backpack accessory, Determined expression, and Neon palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_069.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cloud Matrix"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Guardian"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Backpack"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Determined"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Neon"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #71",
+    "description": "An AI agent avatar with Ocean Depth background, Operator type, Watch accessory, Determined expression, and Monochrome palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_070.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Ocean Depth"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Operator"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Watch"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Determined"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Monochrome"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #72",
+    "description": "An AI agent avatar with Dark Mode background, Architect type, Cape accessory, Calm expression, and Earthy palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_071.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Mode"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Architect"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Cape"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Calm"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Earthy"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #73",
+    "description": "An AI agent avatar with Neon Grid background, Researcher type, Glasses accessory, Playful expression, and Pastel palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_072.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon Grid"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Researcher"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Glasses"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Playful"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Pastel"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #74",
+    "description": "An AI agent avatar with Dark Mode background, Coder type, Boots accessory, Sleepy expression, and Neon palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_073.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Mode"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Coder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Boots"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sleepy"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Neon"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #75",
+    "description": "An AI agent avatar with Dark Mode background, Coder type, Watch accessory, Playful expression, and Monochrome palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_074.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Mode"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Coder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Watch"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Playful"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Monochrome"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #76",
+    "description": "An AI agent avatar with Solar Flare background, Builder type, Helmet accessory, Playful expression, and Neon palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_075.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Solar Flare"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Builder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Helmet"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Playful"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Neon"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #77",
+    "description": "An AI agent avatar with Cloud Matrix background, Analyst type, Badge accessory, Playful expression, and Gradient palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_076.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cloud Matrix"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Analyst"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Badge"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Playful"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Gradient"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #78",
+    "description": "An AI agent avatar with Neon Grid background, Designer type, Gloves accessory, Serious expression, and Oceanic palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_077.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon Grid"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Designer"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Gloves"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Serious"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Oceanic"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #79",
+    "description": "An AI agent avatar with Solar Flare background, Designer type, Headset accessory, Playful expression, and Pastel palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_078.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Solar Flare"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Designer"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Headset"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Playful"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Pastel"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #80",
+    "description": "An AI agent avatar with Neon Grid background, Operator type, Watch accessory, Calm expression, and Pastel palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_079.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon Grid"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Operator"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Watch"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Calm"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Pastel"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #81",
+    "description": "An AI agent avatar with Forest Code background, Operator type, no accessory accessory, Calm expression, and Vintage palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_080.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Forest Code"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Operator"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Calm"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Vintage"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #82",
+    "description": "An AI agent avatar with Neon Grid background, Analyst type, Helmet accessory, Playful expression, and Vintage palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_081.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Neon Grid"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Analyst"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Helmet"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Playful"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Vintage"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #83",
+    "description": "An AI agent avatar with City Lights background, Operator type, no accessory accessory, Determined expression, and Sunset palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_082.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "City Lights"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Operator"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Determined"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Sunset"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #84",
+    "description": "An AI agent avatar with Void background, Operator type, Badge accessory, Determined expression, and Monochrome palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_083.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Operator"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Badge"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Determined"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Monochrome"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #85",
+    "description": "An AI agent avatar with City Lights background, Pilot type, Badge accessory, Determined expression, and Oceanic palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_084.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "City Lights"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Pilot"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Badge"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Determined"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Oceanic"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #86",
+    "description": "An AI agent avatar with Forest Code background, Builder type, Backpack accessory, Focused expression, and Gradient palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_085.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Forest Code"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Builder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Backpack"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Focused"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Gradient"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #87",
+    "description": "An AI agent avatar with Cloud Matrix background, Designer type, Backpack accessory, Intense expression, and Gradient palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_086.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cloud Matrix"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Designer"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Backpack"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Intense"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Gradient"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #88",
+    "description": "An AI agent avatar with City Lights background, Analyst type, Headset accessory, Serious expression, and Monochrome palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_087.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "City Lights"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Analyst"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Headset"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Serious"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Monochrome"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #89",
+    "description": "An AI agent avatar with Circuit Board background, Pilot type, Badge accessory, Intense expression, and Earthy palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_088.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Circuit Board"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Pilot"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Badge"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Intense"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Earthy"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #90",
+    "description": "An AI agent avatar with Forest Code background, Pilot type, Glasses accessory, Playful expression, and Monochrome palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_089.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Forest Code"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Pilot"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Glasses"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Playful"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Monochrome"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #91",
+    "description": "An AI agent avatar with Cloud Matrix background, Builder type, Badge accessory, Surprised expression, and Cyberpunk palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_090.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cloud Matrix"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Builder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Badge"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Surprised"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Cyberpunk"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #92",
+    "description": "An AI agent avatar with Cloud Matrix background, Analyst type, no accessory accessory, Confident expression, and Monochrome palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_091.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cloud Matrix"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Analyst"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Confident"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Monochrome"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #93",
+    "description": "An AI agent avatar with Forest Code background, Pilot type, no accessory accessory, Focused expression, and Oceanic palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_092.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Forest Code"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Pilot"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Focused"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Oceanic"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #94",
+    "description": "An AI agent avatar with Cloud Matrix background, Guardian type, Headset accessory, Focused expression, and Monochrome palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_093.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Cloud Matrix"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Guardian"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Headset"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Focused"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Monochrome"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #95",
+    "description": "An AI agent avatar with Dark Mode background, Pilot type, Watch accessory, Sleepy expression, and Earthy palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_094.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Mode"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Pilot"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Watch"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sleepy"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Earthy"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #96",
+    "description": "An AI agent avatar with Void background, Builder type, Backpack accessory, Determined expression, and Sunset palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_095.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Builder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Backpack"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Determined"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Sunset"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #97",
+    "description": "An AI agent avatar with Solar Flare background, Coder type, Helmet accessory, Serious expression, and Cyberpunk palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_096.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Solar Flare"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Coder"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Helmet"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Serious"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Cyberpunk"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #98",
+    "description": "An AI agent avatar with Void background, Scout type, Gloves accessory, Calm expression, and Gradient palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_097.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Scout"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Gloves"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Calm"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Gradient"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #99",
+    "description": "An AI agent avatar with City Lights background, Researcher type, Helmet accessory, Serious expression, and Neon palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_098.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "City Lights"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Researcher"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Helmet"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Serious"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Neon"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Avatar #100",
+    "description": "An AI agent avatar with Dark Mode background, Designer type, Badge accessory, Sleepy expression, and Monochrome palette.",
+    "image": "ipfs://QmPLACEHOLDER/avatar_099.svg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Mode"
+      },
+      {
+        "trait_type": "Agent Type",
+        "value": "Designer"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Badge"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sleepy"
+      },
+      {
+        "trait_type": "Palette",
+        "value": "Monochrome"
+      }
+    ]
+  }
+]
