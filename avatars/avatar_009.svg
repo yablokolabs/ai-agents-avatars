@@ -1,8 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="#888888"/>
-  <text x="256" y="260" font-family="sans-serif" font-size="24" text-anchor="middle" fill="white">SCOU</text>
-  <text x="256" y="300" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#ccc">Intense</text>
-  <text x="256" y="340" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#eee">Badge</text>
-  <circle cx="256" cy="380" r="40" fill="none" stroke="white" stroke-width="3"/>
-  <circle cx="256" cy="380" r="32" fill="none" stroke="#888888" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Scout agent avatar">
+<rect x="0" y="0" width="512" height="512" fill="#1c1c1f"/>
+<path d="M0 30 H90 V70" fill="none" stroke="#b0b0b8" stroke-width="2" stroke-opacity="0.2" stroke-linecap="round"/><circle cx="90" cy="70" r="4" fill="#ffffff" fill-opacity="0.35"/><path d="M0 90 H137 V130" fill="none" stroke="#b0b0b8" stroke-width="2" stroke-opacity="0.2" stroke-linecap="round"/><circle cx="137" cy="130" r="4" fill="#ffffff" fill-opacity="0.35"/><path d="M0 150 H184 V190" fill="none" stroke="#b0b0b8" stroke-width="2" stroke-opacity="0.2" stroke-linecap="round"/><circle cx="184" cy="190" r="4" fill="#ffffff" fill-opacity="0.35"/><path d="M0 210 H231 V250" fill="none" stroke="#b0b0b8" stroke-width="2" stroke-opacity="0.2" stroke-linecap="round"/><circle cx="231" cy="250" r="4" fill="#ffffff" fill-opacity="0.35"/><path d="M0 270 H278 V310" fill="none" stroke="#b0b0b8" stroke-width="2" stroke-opacity="0.2" stroke-linecap="round"/><circle cx="278" cy="310" r="4" fill="#ffffff" fill-opacity="0.35"/><path d="M0 330 H325 V370" fill="none" stroke="#b0b0b8" stroke-width="2" stroke-opacity="0.2" stroke-linecap="round"/><circle cx="325" cy="370" r="4" fill="#ffffff" fill-opacity="0.35"/><path d="M0 390 H112 V430" fill="none" stroke="#b0b0b8" stroke-width="2" stroke-opacity="0.2" stroke-linecap="round"/><circle cx="112" cy="430" r="4" fill="#ffffff" fill-opacity="0.35"/><path d="M0 450 H159 V490" fill="none" stroke="#b0b0b8" stroke-width="2" stroke-opacity="0.2" stroke-linecap="round"/><circle cx="159" cy="490" r="4" fill="#ffffff" fill-opacity="0.35"/>
+
+<rect x="124" y="402" width="44" height="110" fill="#8a8a90" rx="22" stroke="#1c1c1f" stroke-width="5"/>
+<rect x="344" y="402" width="44" height="110" fill="#8a8a90" rx="22" stroke="#1c1c1f" stroke-width="5"/>
+<path d="M158 512 Q158 392 256 392 Q354 392 354 512 Z" fill="#8a8a90"/>
+<rect x="232" y="344" width="48" height="56" fill="#8a8a90"/>
+<line x1="300" y1="150" x2="330" y2="106" stroke="#8a8a90" stroke-width="5" stroke-opacity="1" stroke-linecap="round"/><circle cx="332" cy="100" r="9" fill="#ffffff"/>
+<path d="M186 146 H326 Q346 146 346 172 V318 Q346 346 316 346 H196 Q166 346 166 318 V172 Q166 146 186 146 Z" fill="#d8d8dc"/>
+<path d="M190 218 L244 232 L244 246 L190 236 Z" fill="#ffffff"/><path d="M322 218 L268 232 L268 246 L322 236 Z" fill="#ffffff"/><path d="M214 296 H298" fill="none" stroke="#8a8a90" stroke-width="8" stroke-opacity="1" stroke-linecap="round"/>
+<circle cx="322" cy="424" r="26" fill="#ffffff"/><circle cx="322" cy="424" r="13" fill="#1c1c1f" fill-opacity="0.5"/>
 </svg>

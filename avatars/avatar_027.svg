@@ -1,8 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="#F5F5F5"/>
-  <text x="256" y="260" font-family="sans-serif" font-size="24" text-anchor="middle" fill="white">GUAR</text>
-  <text x="256" y="300" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#ccc">Surprised</text>
-  <text x="256" y="340" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#eee">Watch</text>
-  <circle cx="256" cy="380" r="40" fill="none" stroke="white" stroke-width="3"/>
-  <circle cx="256" cy="380" r="32" fill="none" stroke="#F5F5F5" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Guardian agent avatar">
+<rect x="0" y="0" width="512" height="512" fill="#fafafa"/>
+<path d="M0 70 Q128 48 256 70 T512 70" fill="none" stroke="#d4d4d4" stroke-width="2.5" stroke-opacity="0.16" stroke-linecap="round"/><path d="M0 132 Q128 110 256 132 T512 132" fill="none" stroke="#d4d4d4" stroke-width="2.5" stroke-opacity="0.16" stroke-linecap="round"/><path d="M0 194 Q128 172 256 194 T512 194" fill="none" stroke="#d4d4d4" stroke-width="2.5" stroke-opacity="0.16" stroke-linecap="round"/><path d="M0 256 Q128 234 256 256 T512 256" fill="none" stroke="#d4d4d4" stroke-width="2.5" stroke-opacity="0.16" stroke-linecap="round"/><path d="M0 318 Q128 296 256 318 T512 318" fill="none" stroke="#d4d4d4" stroke-width="2.5" stroke-opacity="0.16" stroke-linecap="round"/><path d="M0 380 Q128 358 256 380 T512 380" fill="none" stroke="#d4d4d4" stroke-width="2.5" stroke-opacity="0.16" stroke-linecap="round"/><path d="M0 442 Q128 420 256 442 T512 442" fill="none" stroke="#d4d4d4" stroke-width="2.5" stroke-opacity="0.16" stroke-linecap="round"/>
+
+<rect x="124" y="402" width="44" height="110" fill="#9e9e9e" rx="22" stroke="#fafafa" stroke-width="5"/>
+<rect x="344" y="402" width="44" height="110" fill="#9e9e9e" rx="22" stroke="#fafafa" stroke-width="5"/>
+<path d="M158 512 Q158 392 256 392 Q354 392 354 512 Z" fill="#9e9e9e"/>
+<rect x="232" y="344" width="48" height="56" fill="#9e9e9e"/>
+<path d="M256 108 L272 140 H240 Z" fill="#4a4a4a"/>
+<path d="M154 148 H358 V262 Q358 336 256 356 Q154 336 154 262 Z" fill="#2f2f2f"/>
+<circle cx="214" cy="232" r="26" fill="#4a4a4a"/><circle cx="298" cy="232" r="26" fill="#4a4a4a"/><circle cx="256" cy="298" r="17" fill="none" stroke="#9e9e9e" stroke-width="7"/>
+<rect x="120" y="438" width="52" height="36" fill="#4a4a4a" rx="10"/><rect x="130" y="446" width="32" height="20" fill="#fafafa" rx="5"/>
 </svg>

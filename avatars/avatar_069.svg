@@ -1,8 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="#FF006E"/>
-  <text x="256" y="260" font-family="sans-serif" font-size="24" text-anchor="middle" fill="white">GUAR</text>
-  <text x="256" y="300" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#ccc">Determined</text>
-  <text x="256" y="340" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#eee">Backpack</text>
-  <circle cx="256" cy="380" r="40" fill="none" stroke="white" stroke-width="3"/>
-  <circle cx="256" cy="380" r="32" fill="none" stroke="#FF006E" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Guardian agent avatar">
+<rect x="0" y="0" width="512" height="512" fill="#0a0a12"/>
+<circle cx="40" cy="40" r="34" fill="#141428" fill-opacity="0.55"/><circle cx="137" cy="101" r="47" fill="#141428" fill-opacity="0.55"/><circle cx="234" cy="162" r="60" fill="#141428" fill-opacity="0.55"/><circle cx="331" cy="223" r="43" fill="#141428" fill-opacity="0.55"/><circle cx="428" cy="284" r="56" fill="#141428" fill-opacity="0.55"/><circle cx="85" cy="345" r="39" fill="#141428" fill-opacity="0.55"/><circle cx="182" cy="406" r="52" fill="#141428" fill-opacity="0.55"/><circle cx="279" cy="467" r="35" fill="#141428" fill-opacity="0.55"/><circle cx="376" cy="98" r="48" fill="#141428" fill-opacity="0.55"/>
+<rect x="96" y="384" width="40" height="106" fill="#1f9c0c" rx="18"/><rect x="376" y="384" width="40" height="106" fill="#1f9c0c" rx="18"/>
+<rect x="124" y="402" width="44" height="110" fill="#1f9c0c" rx="22" stroke="#0a0a12" stroke-width="5"/>
+<rect x="344" y="402" width="44" height="110" fill="#1f9c0c" rx="22" stroke="#0a0a12" stroke-width="5"/>
+<path d="M158 512 Q158 392 256 392 Q354 392 354 512 Z" fill="#1f9c0c"/>
+<rect x="232" y="344" width="48" height="56" fill="#1f9c0c"/>
+<path d="M256 108 L272 140 H240 Z" fill="#ff00ff"/>
+<path d="M154 148 H358 V262 Q358 336 256 356 Q154 336 154 262 Z" fill="#39ff14"/>
+<path d="M192 220 L242 230 L242 242 L192 232 Z" fill="#ff00ff"/><path d="M320 220 L270 230 L270 242 L320 232 Z" fill="#ff00ff"/><rect x="212" y="286" width="88" height="12" fill="#1f9c0c" rx="6"/>
+<path d="M212 398 L232 512" fill="none" stroke="#ff00ff" stroke-width="15" stroke-opacity="1" stroke-linecap="round"/><path d="M300 398 L280 512" fill="none" stroke="#ff00ff" stroke-width="15" stroke-opacity="1" stroke-linecap="round"/>
 </svg>

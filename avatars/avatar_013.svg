@@ -1,8 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="#00F0FF"/>
-  <text x="256" y="260" font-family="sans-serif" font-size="24" text-anchor="middle" fill="white">SCOU</text>
-  <text x="256" y="300" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#ccc">Curious</text>
-  <text x="256" y="340" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#eee">Gloves</text>
-  <circle cx="256" cy="380" r="40" fill="none" stroke="white" stroke-width="3"/>
-  <circle cx="256" cy="380" r="32" fill="none" stroke="#00F0FF" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Scout agent avatar">
+<rect x="0" y="0" width="512" height="512" fill="#12002e"/>
+<circle cx="470" cy="40" r="120" fill="#f9f871" fill-opacity="0.16"/><line x1="470" y1="40" x2="470" y2="132" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="412" y2="178" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="354" y2="224" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="296" y2="270" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="238" y2="316" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="180" y2="362" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="122" y2="408" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="64" y2="454" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="6" y2="500" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="-52" y2="546" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/>
+
+<rect x="124" y="402" width="44" height="110" fill="#0b7f85" rx="22" stroke="#12002e" stroke-width="5"/>
+<rect x="344" y="402" width="44" height="110" fill="#0b7f85" rx="22" stroke="#12002e" stroke-width="5"/>
+<path d="M158 512 Q158 392 256 392 Q354 392 354 512 Z" fill="#0b7f85"/>
+<rect x="232" y="344" width="48" height="56" fill="#0b7f85"/>
+<line x1="300" y1="150" x2="330" y2="106" stroke="#0b7f85" stroke-width="5" stroke-opacity="1" stroke-linecap="round"/><circle cx="332" cy="100" r="9" fill="#ff2a6d"/>
+<path d="M186 146 H326 Q346 146 346 172 V318 Q346 346 316 346 H196 Q166 346 166 318 V172 Q166 146 186 146 Z" fill="#2de2e6"/>
+<circle cx="216" cy="234" r="23" fill="#ff2a6d"/><circle cx="296" cy="234" r="13" fill="#ff2a6d"/><circle cx="256" cy="296" r="12" fill="none" stroke="#0b7f85" stroke-width="6"/>
+<circle cx="146" cy="486" r="27" fill="#ff2a6d"/><circle cx="366" cy="486" r="27" fill="#ff2a6d"/>
 </svg>

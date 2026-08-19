@@ -1,8 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="#667EEA"/>
-  <text x="256" y="260" font-family="sans-serif" font-size="24" text-anchor="middle" fill="white">SCOU</text>
-  <text x="256" y="300" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#ccc">Calm</text>
-  <text x="256" y="340" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#eee">Gloves</text>
-  <circle cx="256" cy="380" r="40" fill="none" stroke="white" stroke-width="3"/>
-  <circle cx="256" cy="380" r="32" fill="none" stroke="#667EEA" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Scout agent avatar">
+<rect x="0" y="0" width="512" height="512" fill="#141e30"/>
+<circle cx="256" cy="256" r="270" fill="none" stroke="#f7797d" stroke-width="1.5" stroke-opacity="0.1"/><circle cx="256" cy="256" r="198.00000000000003" fill="none" stroke="#f7797d" stroke-width="1.5" stroke-opacity="0.14"/><circle cx="256" cy="256" r="135" fill="none" stroke="#f7797d" stroke-width="1.5" stroke-opacity="0.18"/>
+
+<rect x="124" y="402" width="44" height="110" fill="#3f7fa6" rx="22" stroke="#141e30" stroke-width="5"/>
+<rect x="344" y="402" width="44" height="110" fill="#3f7fa6" rx="22" stroke="#141e30" stroke-width="5"/>
+<path d="M158 512 Q158 392 256 392 Q354 392 354 512 Z" fill="#3f7fa6"/>
+<rect x="232" y="344" width="48" height="56" fill="#3f7fa6"/>
+<line x1="300" y1="150" x2="330" y2="106" stroke="#3f7fa6" stroke-width="5" stroke-opacity="1" stroke-linecap="round"/><circle cx="332" cy="100" r="9" fill="#c471ed"/>
+<path d="M186 146 H326 Q346 146 346 172 V318 Q346 346 316 346 H196 Q166 346 166 318 V172 Q166 146 186 146 Z" fill="#8fd3f4"/>
+<path d="M192 240 Q216 220 240 240" fill="none" stroke="#c471ed" stroke-width="8" stroke-opacity="1" stroke-linecap="round"/><path d="M272 240 Q296 220 320 240" fill="none" stroke="#c471ed" stroke-width="8" stroke-opacity="1" stroke-linecap="round"/><path d="M216 292 Q256 310 296 292" fill="none" stroke="#3f7fa6" stroke-width="7" stroke-opacity="1" stroke-linecap="round"/>
+<circle cx="146" cy="486" r="27" fill="#c471ed"/><circle cx="366" cy="486" r="27" fill="#c471ed"/>
 </svg>

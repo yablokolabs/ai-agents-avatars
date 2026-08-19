@@ -30,6 +30,21 @@ describe("collection source data", () => {
     }
   });
 
+  test("produces artwork that a renderer can actually parse", () => {
+    const script =
+      "import sys,glob,xml.etree.ElementTree as ET\n" +
+      "bad=[]\n" +
+      "for f in sorted(glob.glob(sys.argv[1]+'/*.svg')):\n" +
+      "  try: ET.parse(f)\n" +
+      "  except ET.ParseError as e: bad.append(f.split('/')[-1]+': '+str(e))\n" +
+      "print('\\n'.join(bad))";
+    const out = execFileSync("python3", ["-c", script, path.join(ROOT, "avatars")], {
+      encoding: "utf8",
+    }).trim();
+
+    assert.equal(out, "", `unparseable artwork would show as a broken image in wallets`);
+  });
+
   test("never renders a clipped trait word in the artwork", () => {
     const offenders = [];
     for (const file of fs.readdirSync(path.join(ROOT, "avatars"))) {
