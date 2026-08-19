@@ -1,92 +1,87 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.24;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
-import "@openzeppelin/contracts/security/Pausable.sol";
+import "@openzeppelin/contracts/token/common/ERC2981.sol";
+import "@openzeppelin/contracts/utils/Pausable.sol";
+import "@openzeppelin/contracts/utils/Strings.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Royalties.sol";
-import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 
 /**
  * @title AIAgentsAvatars
- * @dev 100-piece ERC-721 collection with owner-only minting, 2.5% royalty,
- *      pausable mint, and IPFS-backed metadata URIs.
+ * @dev 100-piece ERC-721 collection with a fixed-price public mint, owner-only
+ *      batch minting, a pausable sale, and 2.5% ERC-2981 royalties. Metadata
+ *      lives in a single pinned IPFS directory addressed by token id.
  */
-contract AIAgentsAvatars is
-    ERC721,
-    ERC721URIStorage,
-    Pausable,
-    Ownable,
-    ERC721Royalties,
-    ERC721Enumerable
-{
-    uint256 private constant _MAX_SUPPLY = 100;
-    uint256 private _nextTokenId;
+contract AIAgentsAvatars is ERC721, ERC2981, Pausable, Ownable {
+    using Strings for uint256;
 
-    /**
-     * @dev Emitted when an avatar is minted.
-     */
-    event AvatarMinted(address indexed to, uint256 indexed tokenId, string ipfsCid);
+    uint256 public constant MAX_SUPPLY = 100;
+    uint96 private constant _ROYALTY_BPS = 250;
+
+    uint256 public immutable mintPrice;
+    uint256 public totalMinted;
+
+    string private _collectionCid;
+
+    event AvatarMinted(address indexed to, uint256 indexed tokenId);
 
     constructor(
-        string memory name,
-        string memory symbol,
-        string memory baseIpfsCid
-    )
-        ERC721(name, symbol)
-        ERC721URIStorage(baseIpfsCid)
-    {}
-
-    /**
-     * @dev Mint a single avatar. Only callable by the owner while minting is not paused
-     *      and the max supply of 100 has not been reached.
-     * @param to The recipient address.
-     * @param ipfsCid The IPFS content identifier for this avatar's metadata.
-     */
-    function mint(address to, string calldata ipfsCid)
-        external
-        whenNotPaused
-         onlyOwner
-    {
-        require(_nextTokenId < _MAX_SUPPLY, "AIAgentsAvatars: max supply reached");
-        uint256 tokenId = _nextTokenId++;
-
-        _safeMint(to, tokenId);
-        _setTokenURI(tokenId, string(abi.encodePacked(ipfsCid, ".json")));
-
-        emit AvatarMinted(to, tokenId, ipfsCid);
+        string memory name_,
+        string memory symbol_,
+        string memory collectionCid,
+        uint256 mintPrice_
+    ) ERC721(name_, symbol_) Ownable(msg.sender) {
+        _collectionCid = collectionCid;
+        mintPrice = mintPrice_;
+        _setDefaultRoyalty(msg.sender, _ROYALTY_BPS);
     }
 
-    /**
-     * @dev Override to set royalties to 2.5%.
-     */
-    function royaltyInfo(
-        uint256 tokenId,
-        uint256 salePrice
-    )
+    /// @dev Buy a single avatar at the fixed mint price.
+    function mint() external payable whenNotPaused {
+        require(msg.value == mintPrice, "AIAgentsAvatars: incorrect payment");
+        _mintOne(msg.sender);
+    }
+
+    /// @dev Seed the collection without payment. Owner only.
+    function ownerMint(address to, uint256 quantity) external onlyOwner {
+        for (uint256 i = 0; i < quantity; ++i) {
+            _mintOne(to);
+        }
+    }
+
+    function pause() external onlyOwner {
+        _pause();
+    }
+
+    function unpause() external onlyOwner {
+        _unpause();
+    }
+
+    function withdraw() external onlyOwner {
+        (bool sent, ) = payable(owner()).call{value: address(this).balance}("");
+        require(sent, "AIAgentsAvatars: withdraw failed");
+    }
+
+    function tokenURI(uint256 tokenId) public view override returns (string memory) {
+        _requireOwned(tokenId);
+        return string.concat("ipfs://", _collectionCid, "/", tokenId.toString(), ".json");
+    }
+
+    function supportsInterface(bytes4 interfaceId)
         public
         view
-        override
-        returns (address receiver, uint256 royaltyAmount)
+        override(ERC721, ERC2981)
+        returns (bool)
     {
-        return (owner(), (salePrice * 250) / 10_000);
+        return super.supportsInterface(interfaceId);
     }
 
-    /**
-     * @dev Override to return the total supply.
-     */
-    function _update(
-        address operator,
-        address from,
-        address to,
-        uint256 tokenId,
-        uint256 value,
-        bytes calldata data
-    )
-        internal
-        override(ERC721, ERC721Enumerable)
-    {
-        super._update(operator, from, to, tokenId, value, data);
+    function _mintOne(address to) private {
+        uint256 tokenId = totalMinted;
+        require(tokenId < MAX_SUPPLY, "AIAgentsAvatars: sold out");
+        totalMinted = tokenId + 1;
+        _safeMint(to, tokenId);
+        emit AvatarMinted(to, tokenId);
     }
 }

@@ -1,8 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="#00F0FF"/>
-  <text x="256" y="260" font-family="sans-serif" font-size="24" text-anchor="middle" fill="white">CODE</text>
-  <text x="256" y="300" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#ccc">Serious</text>
-  <text x="256" y="340" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#eee">Helmet</text>
-  <circle cx="256" cy="380" r="40" fill="none" stroke="white" stroke-width="3"/>
-  <circle cx="256" cy="380" r="32" fill="none" stroke="#00F0FF" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Coder agent avatar">
+<rect x="0" y="0" width="512" height="512" fill="#12002e"/>
+<circle cx="470" cy="40" r="120" fill="#f9f871" fill-opacity="0.16"/><line x1="470" y1="40" x2="470" y2="132" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="412" y2="178" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="354" y2="224" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="296" y2="270" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="238" y2="316" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="180" y2="362" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="122" y2="408" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="64" y2="454" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="6" y2="500" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="-52" y2="546" stroke="#ff2a6d" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/>
+
+<rect x="124" y="402" width="44" height="110" fill="#0b7f85" rx="22" stroke="#12002e" stroke-width="5"/>
+<rect x="344" y="402" width="44" height="110" fill="#0b7f85" rx="22" stroke="#12002e" stroke-width="5"/>
+<path d="M158 512 Q158 392 256 392 Q354 392 354 512 Z" fill="#0b7f85"/>
+<rect x="232" y="344" width="48" height="56" fill="#0b7f85"/>
+<line x1="256" y1="150" x2="256" y2="116" stroke="#0b7f85" stroke-width="6" stroke-opacity="1" stroke-linecap="round"/><circle cx="256" cy="108" r="10" fill="#ff2a6d"/>
+<path d="M156 150 H356 V320 Q356 344 332 344 H180 Q156 344 156 320 Z" fill="#2de2e6"/>
+<circle cx="216" cy="232" r="18" fill="#ff2a6d"/><circle cx="296" cy="232" r="18" fill="#ff2a6d"/><path d="M208 294 H304" fill="none" stroke="#0b7f85" stroke-width="8" stroke-opacity="1" stroke-linecap="round"/>
+<path d="M138 246 Q138 116 256 116 Q374 116 374 246 Z" fill="#0b7f85" fill-opacity="0.92"/><rect x="138" y="238" width="236" height="18" fill="#ff2a6d" rx="9"/>
 </svg>

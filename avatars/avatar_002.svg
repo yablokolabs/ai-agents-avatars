@@ -1,8 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="#00F0FF"/>
-  <text x="256" y="260" font-family="sans-serif" font-size="24" text-anchor="middle" fill="white">PILO</text>
-  <text x="256" y="300" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#ccc">Sleepy</text>
-  <text x="256" y="340" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#eee">Watch</text>
-  <circle cx="256" cy="380" r="40" fill="none" stroke="white" stroke-width="3"/>
-  <circle cx="256" cy="380" r="32" fill="none" stroke="#00F0FF" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Pilot agent avatar">
+<rect x="0" y="0" width="512" height="512" fill="#12002e"/>
+<rect x="0" y="300" width="512" height="212" fill="#26004d" fill-opacity="0.6"/>
+
+<rect x="124" y="402" width="44" height="110" fill="#0b7f85" rx="22" stroke="#12002e" stroke-width="5"/>
+<rect x="344" y="402" width="44" height="110" fill="#0b7f85" rx="22" stroke="#12002e" stroke-width="5"/>
+<path d="M158 512 Q158 392 256 392 Q354 392 354 512 Z" fill="#0b7f85"/>
+<rect x="232" y="344" width="48" height="56" fill="#0b7f85"/>
+<line x1="148" y1="222" x2="120" y2="202" stroke="#0b7f85" stroke-width="6" stroke-opacity="1" stroke-linecap="round"/><line x1="364" y1="222" x2="392" y2="202" stroke="#0b7f85" stroke-width="6" stroke-opacity="1" stroke-linecap="round"/>
+<path d="M148 262 Q148 142 256 142 Q364 142 364 262 V330 Q364 348 340 348 H172 Q148 348 148 330 Z" fill="#2de2e6"/>
+<path d="M190 244 Q216 262 242 244" fill="none" stroke="#ff2a6d" stroke-width="8" stroke-opacity="1" stroke-linecap="round"/><path d="M270 244 Q296 262 322 244" fill="none" stroke="#ff2a6d" stroke-width="8" stroke-opacity="1" stroke-linecap="round"/><circle cx="256" cy="306" r="10" fill="#0b7f85"/>
+<rect x="120" y="438" width="52" height="36" fill="#ff2a6d" rx="10"/><rect x="130" y="446" width="32" height="20" fill="#12002e" rx="5"/>
 </svg>

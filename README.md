@@ -1,51 +1,102 @@
 # AI Agents Avatars — NFT Collection
 
-A 100-piece generative NFT collection of AI agent avatars.
+A 100-piece generative NFT collection of AI agent avatars, minting on **Polygon Amoy**.
+
+Live site: <https://aiagentsavatars.yablokolabs.com>
 
 ## Traits
 
-| Trait | Options | Rarest |
-|-------|---------|--------|
-| Background | Neon Grid, Data Stream, Void, Circuit Board, Cloud Matrix, Dark Mode, Solar Flare, Ocean Depth, Forest Code, City Lights | Data Stream (4%) |
-| Agent Type | Coder, Designer, Analyst, Operator, Architect, Researcher, Builder, Scout, Guardian, Pilot | Coder (5%) |
-| Accessory | Glasses, Headset, Badge, Cape, Helmet, Gloves, Boots, Backpack, Watch, None | Boots (4%) |
-| Expression | Focused, Curious, Confident, Calm, Intense, Playful, Serious, Surprised, Sleepy, Determined | Curious (6%) |
-| Palette | Monochrome, Pastel, Cyberpunk, Earthy, Oceanic, Sunset, Neon, Minimal, Vintage, Gradient | Minimal (6%) |
+Every avatar is drawn as a pure function of its five traits — the same traits
+recorded in its on-chain metadata. Nothing is random at render time.
 
-## Files
+| Trait | Drives | Options |
+|-------|--------|---------|
+| Palette | Colour scheme | Monochrome, Pastel, Cyberpunk, Earthy, Oceanic, Sunset, Neon, Minimal, Vintage, Gradient |
+| Background | Backdrop pattern | Neon Grid, Data Stream, Void, Circuit Board, Cloud Matrix, Dark Mode, Solar Flare, Ocean Depth, Forest Code, City Lights |
+| Agent Type | Head silhouette and antenna | Coder, Designer, Analyst, Operator, Architect, Researcher, Builder, Scout, Guardian, Pilot |
+| Expression | Eyes and mouth | Focused, Curious, Confident, Calm, Intense, Playful, Serious, Surprised, Sleepy, Determined |
+| Accessory | Overlay | Glasses, Headset, Badge, Cape, Helmet, Gloves, Boots, Backpack, Watch, None |
 
-- `avatars/` — 100 SVG images (512x512)
-- `traits.csv` — Trait combinations for all 100
-- `traits.json` — Machine-readable traits
-- `metadata.json` — EIP-721 metadata (ready for IPFS)
-- `contracts/AIAgentsAvatars.sol` — ERC-721 contract
-- `scripts/deploy.js` — Hardhat deployment script
-- `frontend/` — Next.js minting page (Cloudflare Pages)
+## Layout
 
-## How to Mint
+| Path | What it is |
+|------|------------|
+| `avatars/` | 100 SVGs (512×512), generated — edit the generator, not these |
+| `traits.json`, `traits.csv` | Trait assignment per token, the source of truth for the art |
+| `metadata.json` | EIP-721 metadata for all 100, image URLs rewritten at pin time |
+| `contracts/AIAgentsAvatars.sol` | ERC-721 + ERC-2981, fixed-price public mint |
+| `scripts/` | Art generation, IPFS pinning, deployment, frontend sync |
+| `test/` | Contract behaviour (Hardhat) and collection integrity (node:test) |
+| `frontend/` | Next.js mint page, exported statically to GitHub Pages |
 
-1. Deploy contract to Polygon Mumbai testnet:
-   ```bash
-   npx hardhat run scripts/deploy.js --network mumbai
-   ```
-2. Pin metadata to IPFS (NFT.Storage free tier):
-   ```bash
-   npm install -g nft.storage-cli
-   nft storage upload metadata.json --output ipfs://
-   ```
-3. Update `baseIpfsCid` in constructor when deploying.
-4. Deploy to Cloudflare Pages:
-   ```bash
-   cd frontend
-   npm install
-   npm run build
-   # Push to GitHub, import to Cloudflare Pages
-   ```
+## The contract
 
-## Royalty
+`ERC721 + ERC2981 + Pausable + Ownable` against OpenZeppelin v5.
 
-2.5% on secondary sales (enforced via ERC-721Royalties).
+- 100 max supply, token ids `0…99`
+- Public `mint()` at a fixed price set on deploy; `ownerMint(to, qty)` for seeding
+- `tokenURI(n)` is derived as `ipfs://<COLLECTION_CID>/n.json` — one storage slot
+  for the whole collection rather than 100 stored strings
+- 2.5% ERC-2981 royalty to the owner
+- `pause()` / `unpause()` halt the public mint; `withdraw()` sweeps proceeds
 
-## License
+Compiled with the **Cancun** EVM target, which OpenZeppelin 5.6 requires and
+Polygon PoS has supported since the Napoli upgrade.
+
+## Going live
+
+```bash
+npm install
+cp .env.example .env      # then fill it in
+```
+
+**1. Generate the art** (only if you changed `traits.json`):
+
+```bash
+npm run art
+```
+
+**2. Pin to IPFS.** Artwork first, then metadata pointing at the artwork's CID.
+Needs `PINATA_JWT`:
+
+```bash
+npm run ipfs:pin
+```
+
+Copy the printed `COLLECTION_CID` into `.env`. **It is immutable once deployed** —
+pin before you deploy, or the collection points at nothing forever.
+
+**3. Deploy.** Needs `PRIVATE_KEY` funded from the
+[Amoy faucet](https://faucet.polygon.technology), and `ETHERSCAN_API_KEY` if you
+want automatic verification:
+
+```bash
+npm run deploy:amoy
+```
+
+**4. Point the site at the contract.** Set the repository variable
+`NEXT_PUBLIC_CONTRACT_ADDRESS` to the printed address:
+
+```bash
+gh variable set NEXT_PUBLIC_CONTRACT_ADDRESS --body 0xYourContractAddress
+```
+
+Pushing to `main` deploys. Until that variable is set the site builds fine and
+runs in preview mode — the gallery renders, minting is disabled.
+
+## Development
+
+```bash
+npm test                       # contract behaviour + collection integrity
+npx hardhat compile            # required once before the frontend can build
+cd frontend && npm install && npm run dev
+```
+
+`frontend/lib/collection.json`, `frontend/lib/abi.json` and
+`frontend/public/avatars/` are generated by `scripts/sync-frontend.js` on
+predev/prebuild. They are gitignored — the root `metadata.json`, `avatars/` and
+the compiled artifact are the only sources of truth.
+
+## Licence
 
 MIT

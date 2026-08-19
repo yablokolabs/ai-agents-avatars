@@ -1,8 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="#FF006E"/>
-  <text x="256" y="260" font-family="sans-serif" font-size="24" text-anchor="middle" fill="white">BUIL</text>
-  <text x="256" y="300" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#ccc">Playful</text>
-  <text x="256" y="340" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#eee">Helmet</text>
-  <circle cx="256" cy="380" r="40" fill="none" stroke="white" stroke-width="3"/>
-  <circle cx="256" cy="380" r="32" fill="none" stroke="#FF006E" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Builder agent avatar">
+<rect x="0" y="0" width="512" height="512" fill="#0a0a12"/>
+<circle cx="470" cy="40" r="120" fill="#00ffff" fill-opacity="0.16"/><line x1="470" y1="40" x2="470" y2="132" stroke="#ff00ff" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="412" y2="178" stroke="#ff00ff" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="354" y2="224" stroke="#ff00ff" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="296" y2="270" stroke="#ff00ff" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="238" y2="316" stroke="#ff00ff" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="180" y2="362" stroke="#ff00ff" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="122" y2="408" stroke="#ff00ff" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="64" y2="454" stroke="#ff00ff" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="6" y2="500" stroke="#ff00ff" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="-52" y2="546" stroke="#ff00ff" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/>
+
+<rect x="124" y="402" width="44" height="110" fill="#1f9c0c" rx="22" stroke="#0a0a12" stroke-width="5"/>
+<rect x="344" y="402" width="44" height="110" fill="#1f9c0c" rx="22" stroke="#0a0a12" stroke-width="5"/>
+<path d="M158 512 Q158 392 256 392 Q354 392 354 512 Z" fill="#1f9c0c"/>
+<rect x="232" y="344" width="48" height="56" fill="#1f9c0c"/>
+<rect x="232" y="134" width="48" height="22" fill="#1f9c0c" rx="6"/>
+<path d="M150 156 H362 V300 Q362 348 300 348 H212 Q150 348 150 300 Z" fill="#39ff14"/>
+<circle cx="214" cy="232" r="20" fill="#ff00ff"/><path d="M274 232 Q296 214 318 232" fill="none" stroke="#ff00ff" stroke-width="9" stroke-opacity="1" stroke-linecap="round"/><path d="M210 284 Q256 320 302 284" fill="none" stroke="#1f9c0c" stroke-width="7" stroke-opacity="1" stroke-linecap="round"/>
+<path d="M138 252 Q138 122 256 122 Q374 122 374 252 Z" fill="#1f9c0c" fill-opacity="0.92"/><rect x="138" y="244" width="236" height="18" fill="#ff00ff" rx="9"/>
 </svg>

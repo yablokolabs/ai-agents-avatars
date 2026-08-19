@@ -1,8 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="#FF006E"/>
-  <text x="256" y="260" font-family="sans-serif" font-size="24" text-anchor="middle" fill="white">CODE</text>
-  <text x="256" y="300" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#ccc">Sleepy</text>
-  <text x="256" y="340" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#eee">Boots</text>
-  <circle cx="256" cy="380" r="40" fill="none" stroke="white" stroke-width="3"/>
-  <circle cx="256" cy="380" r="32" fill="none" stroke="#FF006E" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Coder agent avatar">
+<rect x="0" y="0" width="512" height="512" fill="#0a0a12"/>
+<rect x="0" y="300" width="512" height="212" fill="#141428" fill-opacity="0.6"/>
+
+<rect x="124" y="402" width="44" height="110" fill="#1f9c0c" rx="22" stroke="#0a0a12" stroke-width="5"/>
+<rect x="344" y="402" width="44" height="110" fill="#1f9c0c" rx="22" stroke="#0a0a12" stroke-width="5"/>
+<path d="M158 512 Q158 392 256 392 Q354 392 354 512 Z" fill="#1f9c0c"/>
+<rect x="232" y="344" width="48" height="56" fill="#1f9c0c"/>
+<line x1="256" y1="150" x2="256" y2="116" stroke="#1f9c0c" stroke-width="6" stroke-opacity="1" stroke-linecap="round"/><circle cx="256" cy="108" r="10" fill="#ff00ff"/>
+<path d="M156 150 H356 V320 Q356 344 332 344 H180 Q156 344 156 320 Z" fill="#39ff14"/>
+<path d="M190 232 Q216 250 242 232" fill="none" stroke="#ff00ff" stroke-width="8" stroke-opacity="1" stroke-linecap="round"/><path d="M270 232 Q296 250 322 232" fill="none" stroke="#ff00ff" stroke-width="8" stroke-opacity="1" stroke-linecap="round"/><circle cx="256" cy="294" r="10" fill="#1f9c0c"/>
+<rect x="178" y="474" width="72" height="38" fill="#ff00ff" rx="12"/><rect x="262" y="474" width="72" height="38" fill="#ff00ff" rx="12"/>
 </svg>

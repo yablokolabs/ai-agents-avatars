@@ -1,8 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="#667EEA"/>
-  <text x="256" y="260" font-family="sans-serif" font-size="24" text-anchor="middle" fill="white">DESI</text>
-  <text x="256" y="300" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#ccc">Intense</text>
-  <text x="256" y="340" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#eee">Backpack</text>
-  <circle cx="256" cy="380" r="40" fill="none" stroke="white" stroke-width="3"/>
-  <circle cx="256" cy="380" r="32" fill="none" stroke="#667EEA" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Designer agent avatar">
+<rect x="0" y="0" width="512" height="512" fill="#141e30"/>
+<circle cx="40" cy="40" r="34" fill="#243b55" fill-opacity="0.55"/><circle cx="137" cy="101" r="47" fill="#243b55" fill-opacity="0.55"/><circle cx="234" cy="162" r="60" fill="#243b55" fill-opacity="0.55"/><circle cx="331" cy="223" r="43" fill="#243b55" fill-opacity="0.55"/><circle cx="428" cy="284" r="56" fill="#243b55" fill-opacity="0.55"/><circle cx="85" cy="345" r="39" fill="#243b55" fill-opacity="0.55"/><circle cx="182" cy="406" r="52" fill="#243b55" fill-opacity="0.55"/><circle cx="279" cy="467" r="35" fill="#243b55" fill-opacity="0.55"/><circle cx="376" cy="98" r="48" fill="#243b55" fill-opacity="0.55"/>
+<rect x="96" y="384" width="40" height="106" fill="#3f7fa6" rx="18"/><rect x="376" y="384" width="40" height="106" fill="#3f7fa6" rx="18"/>
+<rect x="124" y="402" width="44" height="110" fill="#3f7fa6" rx="22" stroke="#141e30" stroke-width="5"/>
+<rect x="344" y="402" width="44" height="110" fill="#3f7fa6" rx="22" stroke="#141e30" stroke-width="5"/>
+<path d="M158 512 Q158 392 256 392 Q354 392 354 512 Z" fill="#3f7fa6"/>
+<rect x="232" y="344" width="48" height="56" fill="#3f7fa6"/>
+<circle cx="200" cy="142" r="8" fill="#c471ed"/><circle cx="312" cy="142" r="8" fill="#c471ed"/>
+<path d="M256 138 Q368 138 368 246 Q368 348 256 348 Q144 348 144 246 Q144 138 256 138 Z" fill="#8fd3f4"/>
+<path d="M190 222 L244 236 L244 250 L190 240 Z" fill="#c471ed"/><path d="M322 222 L268 236 L268 250 L322 240 Z" fill="#c471ed"/><path d="M214 300 H298" fill="none" stroke="#3f7fa6" stroke-width="8" stroke-opacity="1" stroke-linecap="round"/>
+<path d="M212 398 L232 512" fill="none" stroke="#c471ed" stroke-width="15" stroke-opacity="1" stroke-linecap="round"/><path d="M300 398 L280 512" fill="none" stroke="#c471ed" stroke-width="15" stroke-opacity="1" stroke-linecap="round"/>
 </svg>

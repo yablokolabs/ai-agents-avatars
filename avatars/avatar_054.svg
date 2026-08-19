@@ -1,8 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="#D4C5A9"/>
-  <text x="256" y="260" font-family="sans-serif" font-size="24" text-anchor="middle" fill="white">DESI</text>
-  <text x="256" y="300" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#ccc">Intense</text>
-  <text x="256" y="340" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#eee">Clean</text>
-  <circle cx="256" cy="380" r="40" fill="none" stroke="white" stroke-width="3"/>
-  <circle cx="256" cy="380" r="32" fill="none" stroke="#D4C5A9" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Designer agent avatar">
+<rect x="0" y="0" width="512" height="512" fill="#2a2118"/>
+<circle cx="470" cy="40" r="120" fill="#d9b96a" fill-opacity="0.16"/><line x1="470" y1="40" x2="470" y2="132" stroke="#b5533c" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="412" y2="178" stroke="#b5533c" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="354" y2="224" stroke="#b5533c" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="296" y2="270" stroke="#b5533c" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="238" y2="316" stroke="#b5533c" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="180" y2="362" stroke="#b5533c" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="122" y2="408" stroke="#b5533c" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="64" y2="454" stroke="#b5533c" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="6" y2="500" stroke="#b5533c" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/><line x1="470" y1="40" x2="-52" y2="546" stroke="#b5533c" stroke-width="2" stroke-opacity="0.14" stroke-linecap="round"/>
+
+<rect x="124" y="402" width="44" height="110" fill="#a8905c" rx="22" stroke="#2a2118" stroke-width="5"/>
+<rect x="344" y="402" width="44" height="110" fill="#a8905c" rx="22" stroke="#2a2118" stroke-width="5"/>
+<path d="M158 512 Q158 392 256 392 Q354 392 354 512 Z" fill="#a8905c"/>
+<rect x="232" y="344" width="48" height="56" fill="#a8905c"/>
+<circle cx="200" cy="142" r="8" fill="#b5533c"/><circle cx="312" cy="142" r="8" fill="#b5533c"/>
+<path d="M256 138 Q368 138 368 246 Q368 348 256 348 Q144 348 144 246 Q144 138 256 138 Z" fill="#e8d5a3"/>
+<path d="M190 222 L244 236 L244 250 L190 240 Z" fill="#b5533c"/><path d="M322 222 L268 236 L268 250 L322 240 Z" fill="#b5533c"/><path d="M214 300 H298" fill="none" stroke="#a8905c" stroke-width="8" stroke-opacity="1" stroke-linecap="round"/>
+
 </svg>
