@@ -1,44 +1,42 @@
-// SPDX-License-Identifier: MIT
-const { ethers } = require("hardhat");
+#!/usr/bin/env node
+const { ethers, network, run } = require("hardhat");
+require("dotenv").config();
 
-/**
- * @title DeployAIAgentsAvatars
- * @dev Hardhat deployment script for the AIAgentsAvatars NFT collection on Polygon.
- */
 async function main() {
-    const [deployer] = await ethers.getSigners();
+  const cid = process.env.COLLECTION_CID;
+  if (!cid) throw new Error("Set COLLECTION_CID in .env — run `npm run ipfs:pin` first");
 
-    console.log("Deploying AIAgentsAvatars with the account:", deployer.address);
-    console.log("Account balance (ETH):", (await deployer.getBalance()).toString());
+  const price = ethers.parseEther(process.env.MINT_PRICE || "0.01");
+  const args = ["AI Agents Avatars", "AIAV", cid, price];
 
-    const baseIpfsCid = "QmYourBaseIpfsCidHere"; // Replace with your IPFS base CID
+  const [deployer] = await ethers.getSigners();
+  const balance = await ethers.provider.getBalance(deployer.address);
+  console.log(`Network:  ${network.name}`);
+  console.log(`Deployer: ${deployer.address}`);
+  console.log(`Balance:  ${ethers.formatEther(balance)} POL`);
+  if (balance === 0n) throw new Error("Deployer has no POL — fund it from the Amoy faucet");
 
-    const AIAgentsAvatars = await ethers.getContractFactory("AIAgentsAvatars");
-    const collection = await AIAgentsAvatars.deploy(
-        "AI Agents Avatars",
-        "AIAV",
-        baseIpfsCid
-    );
+  const nft = await ethers.deployContract("AIAgentsAvatars", args);
+  await nft.waitForDeployment();
+  const address = await nft.getAddress();
 
-    await collection.waitForDeployment();
+  console.log(`\nDeployed to: ${address}`);
+  console.log(`Mint price:  ${ethers.formatEther(price)} POL`);
+  console.log(`tokenURI(0): ipfs://${cid}/0.json`);
+  console.log(`\nNEXT_PUBLIC_CONTRACT_ADDRESS=${address}`);
 
-    const [owner] = await ethers.getSigners();
-    console.log("AIAgentsAvatars deployed to:", await collection.getAddress());
-    console.log("Owner set to:", owner.address);
-
-    // Mint the first batch (optional — owner can mint via contract directly)
-    const mintCount = 10;
-    for (let i = 0; i < mintCount; i++) {
-        const ipfsCid = `QmMint${i + 1}`; // Replace with real IPFS CIDs
-        await collection.mint(owner.address, ipfsCid);
+  if (network.name !== "hardhat" && process.env.ETHERSCAN_API_KEY) {
+    console.log("\nWaiting 5 confirmations before verifying…");
+    await nft.deploymentTransaction().wait(5);
+    try {
+      await run("verify:verify", { address, constructorArguments: args });
+    } catch (e) {
+      console.error(`Verification failed (deploy still succeeded): ${e.message}`);
     }
-
-    console.log(`Minted ${mintCount} avatars. Max supply: 100.`);
+  }
 }
 
-main()
-    .then(() => process.exit(0))
-    .catch((error) => {
-        console.error(error);
-        process.exit(1);
-    });
+main().catch((e) => {
+  console.error(e.message);
+  process.exit(1);
+});
